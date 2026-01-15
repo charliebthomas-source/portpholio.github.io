@@ -1,2 +1,12 @@
 # portpholio
-docment.getElementById
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My work in Progress</title>
+    </head>
+    <body>
+
+        <h1> A work in progrees portphollio </h1>
+        <p> This is going to be my first ever coded thing and i am making a portphollio</p>
+    </body>
+</html>
