@@ -1,4 +1,4 @@
-{{ wakatimeDoubleCategoryBar "💾 Languages:" wakatimeData.Languages "💼 Projects:" wakatimeData.Projects 5 }}<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="styles.css" 
