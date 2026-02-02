@@ -1,9 +1,8 @@
 header{
-    background: rebeccapurple;
-    color: mediumslateblue;
+    background: whitesmoke;
+    color: gold;
     text-align: center;
     padding: 50px ;
-    border-radius: 10px;
 
 }
 h1{
@@ -38,6 +37,14 @@ section{
 }
 
 section h2{
+margin-top: 0;
+color: black;
+}
+
+
+/* i need to change h3 to be big like a title while h2 is a subtile fo section articals and aside stuff*/
+
+section h3{
 margin-top: 0;
 color: black;
 }
