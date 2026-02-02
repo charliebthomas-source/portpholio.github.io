@@ -1,4 +1,4 @@
-{{ wakatimeDoubleCategoryBar "💾 Languages:" wakatimeData.Languages "💼 Projects:" wakatimeData.Projects 5 }}<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="styles.css" 
@@ -13,6 +13,8 @@
 <section>
         <h2> About me </h2>
         <p> i am learing how to code websites from screatch</p>
+        <a href=https://github.com/charliebthomas-source/portpholio/blob/a/Aboutme.md><button>About Me</button></a>
+        <!--the link above is currently linked to the about me page on git hub not a real/proper page -->
       </section>
     <section>
     <h2> Project 01 </h2>
@@ -29,7 +31,6 @@
      <section>
     <h2>Project 04</h2>
     <p>To Lurn how to code</p>
-    <a herf=Aboutme>about me</a>
     </section>
 
    </body>

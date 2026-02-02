@@ -1,3 +1,12 @@
+button{
+    color: hotpink;
+    background-color: #f4f7fb;
+    font-weight: 200;
+    border-color: #f4f7fb;
+    box-shadow: #f4f7fb;
+    
+}
+
 
 header{
     background: palegreen;
