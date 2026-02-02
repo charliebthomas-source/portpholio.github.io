@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            p.one {
-    border-style: solid;
-    border-width: 10px;
-}
-          h1 {
-            border-style: solid;
-             border-width: 100px;
-            border-color: beige;
-                border-width: 2mm;
-                border-color: beige;
-                padding: 20mm;
-            }
-             body { 
-                background-color white;
-            }
-        </style>
         <link rel="stylesheet" href="styles.css" 
         type="text/css">
-
-        <title>My work in Progress</title>
+     <title>My work in Progress</title>
     </head>
     <body>
+    <header><h1>This is my first ever porpholioe</h1>
+     <p>My name is chalrie and i am teching my self how to code my own website though tect tutorials</p>
+     </header>
+     <main>
 <section>
-        <h1> A work in progrees portphollio </h1>
-        <p> This is going to be my first ever coded thing and i am making a portphollio</p>
-        </section>
-    </body>
+        <h2> About me </h2>
+        <p> i am learing how to code websites from screatch</p>
+      </section>
+    <section>
+    <h2> Project 01 </h2>
+    <p>This project is my first ever long term project is is to right a poem book with 100 poems in it and publish it on amazon</p>
+    </section>
+    <section>
+    <h2>Project 02</h2>
+    <p>To open up my very own bussnies and sell somthing</p>
+    </section>
+       <section>
+    <h2>Project 03</h2>
+    <p>To Make a toylander kit car</p>
+    </section>
+     <section>
+    <h2>Project 04</h2>
+    <p>To Lurn how to code</p>
+    <a herf=Aboutme>about me</a>
+    </section>
+
+   </body>
 
 </html>

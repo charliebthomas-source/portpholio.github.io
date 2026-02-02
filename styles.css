@@ -1,37 +1,45 @@
+
+header{
+    background: palegreen;
+    color: mediumslateblue;
+    text-align: center;
+    padding: 50px ;
+    border-radius: 10px;
+
+}
+h1{
+    font-family: sans-serif;
+    margin: 0;
+}
+
 body {
     font-family: "Segoe UI", Robot, sans-serif;
     margin: 0;
+    background-color: white;
+    color:aquamarine;
     
 }
 
     
 
 h1 {
-    border-style: solid;
-             border-width: 100px;
-            border-color: beige;
-    color: white;
-    font-family: "Segoe UI", Robot, sans-serif;
-    font-size: xx-large;
-    background-color: blue;
-    border: 2mm solid pink;
-    border-color: aliceblue;
-    border-radius: 5mm;
-    box-sizing: border-box;
-   
+   font-size: xx-large;
+   color: black;
 }
-p {
-    font-family: sans-serif;
-    font-size: medium;
-    background-color: blue;
-    border: 2mm solid pink;
 
+
+section{
+    background: #f4f7fb;
+    border-radius: 20px;
+    pad: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+    padding: 20px;
 }
-p.one {
-    border-style: solid;
-    border-width: 10px;
+
+section h2{
+margin-top: 0;
+color: black;
 }
-section {
-    margin-top: 10px;
-    color: brown;
-}
+
