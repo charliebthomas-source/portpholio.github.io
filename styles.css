@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 button{
     color: hotpink;
     background-color: #f4f7fb;
@@ -50,4 +54,25 @@ section{
 section h2{
 margin-top: 0;
 color: black;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 50%;
+    background-color: pink;
+}
+
+.main{
+    flex: 50%;
+    background-color: lightblue;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
 }

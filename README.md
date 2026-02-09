@@ -1,21 +1,31 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="uk">
     <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Linking to the style sheet-->
         <link rel="stylesheet" href="styles.css" 
         type="text/css">
+         <!--Linking to the style sheet-->
      <title>My work in Progress</title>
     </head>
     <body>
     <header><h1>This is my first ever porpholioe</h1>
      <p>My name is chalrie and i am teching my self how to code my own website though tect tutorials</p>
      </header>
-     <main>
-<section>
-        <h2> About me </h2>
-        <p> i am learing how to code websites from screatch</p>
-        <a href=https://github.com/charliebthomas-source/portpholio/blob/a/Aboutme.md><button>About Me</button></a>
-        <!--the link above is currently linked to the about me page on git hub not a real/proper page -->
-      </section>
+
+   <div class="container">
+   <div class="side">
+      <h2> About me </h2>
+      <p> i am learing how to code websites from screatch</p>
+      <a href="./About.html"><button>About Me</button></a> <!--the link above is currently linked to the about me page on git hub not a real/proper page -->
+   </div>
+
+   <div class="main">
+      <div class="fakeimg" Style="hight:200px;">Image</div> <!--need to put a real photo in here-->
+   </div>
+   <!--i dont need to have sections -->
     <section>
     <h2> Project 01 </h2>
     <p>This project is my first ever long term project is is to right a poem book with 100 poems in it and publish it on amazon</p>
@@ -32,9 +42,8 @@
     <h2>Project 04</h2>
     <p>To Lurn how to code</p>
     </section>
+    </div>
 
    </body>
 
 </html>
-
-<!--i cant get the commits to work properly:(-->
