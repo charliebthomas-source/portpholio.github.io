@@ -23,7 +23,7 @@
    </div>
 
    <div class="main">
-      <img scr="![Mug shot](95c6924d-d4bf-4e98-8a94-507d205874eb.png)" alt="mug shot of me" width="500" height="500"/> <!--need to put a real photo in here-->
+      <img scr="image.png" alt="mug shot of me" width="500" height="500"/> <!--need to put a real photo in here-->
    </div>
    <!--i dont need to have sections -->
     <section>
