@@ -42,14 +42,14 @@ h1 {
 
 
 section{
-    background: #f4f7fb;
-    border-radius: 20px;
-    pad: 30px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    background: white;
     color: black;
-    padding: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
 }
+
+
 
 section h2{
 margin-top: 0;
@@ -63,12 +63,18 @@ color: black;
 
 .side{
     flex: 50%;
-    background-color: pink;
+    padding: 10px;
+    border-width: 5px;
+    border-color: pink;
+    border-style: solid;
 }
 
 .main{
     flex: 50%;
-    background-color: lightblue;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .fakeimg {
@@ -83,4 +89,12 @@ img{
 
 image{
     border-radius: 20px;
+}
+
+footer{
+    background: palegreen;
+    color: mediumslateblue;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 10px;
 }
