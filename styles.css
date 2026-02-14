@@ -78,6 +78,7 @@ color: black;
 }
 img{
     border-radius: 20px;
+    image-rendering: auto;
 }
 
 image{
