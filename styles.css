@@ -13,11 +13,11 @@ button{
 
 
 header{
-    background: palegreen;
-    color: mediumslateblue;
+    background: #1c1c1c;
+    color: #D0FF00;
     text-align: center;
     padding: 50px ;
-    border-radius: 10px;
+   
 
 }
 h1{
@@ -37,14 +37,15 @@ body {
 
 h1 {
    font-size: xx-large;
-   color: black;
+   color: #5D00FF;
+;
 }
 
 
 section{
-    background: white;
-    color: black;
-    border-color: black;
+    background: #1c1c1c;
+    color: #2CFF05;
+    border-color: #1c1c1c;
     border-width: 5px;
     border-style: solid;
 }
@@ -53,8 +54,7 @@ section{
 
 section h2{
 margin-top: 0;
-color: black;
-text-align:left;
+color: #FF2E9A;
 }
 
 .container{
@@ -99,3 +99,14 @@ footer{
     padding: 10px ;
     border-radius: 10px;
 }
+
+/*
+    color: #1c1c1c;
+    color: #2CFF05;
+    color: #5D00FF;
+    color: #aaa;
+    color: #Cfff04;
+    color: #FF2E9A;
+    color: #f4f7fb;
+    color: #D0FF00;
+*/

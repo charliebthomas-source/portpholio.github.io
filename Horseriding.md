@@ -9,7 +9,37 @@
          <!--Linking to the style sheet-->
       <title>My work in Progress</title>
     </head>
-    <body>
     <header><h1>This is my first ever porpholioe</h1>
      <p>My name is chalrie and i am teching my self how to code my own website though tect tutorials</p>
      </header>
+
+<body>
+<section>
+<div class="container">
+<div class="main">
+<h2>Horse riding</h2>
+<p>Horse riding descrption</p>
+</div>
+<div class="side">
+ <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
+</div>
+</div>
+</section>
+
+
+<section>
+<div class="container">
+<div class="side">
+<img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
+</div>
+<div class="main">
+<h2>Volunterring</h2>
+<p>Voulunterring more </p>
+</div>
+</div>
+</section>
+
+
+</body>
+
+</html >

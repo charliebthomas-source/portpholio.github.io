@@ -25,7 +25,6 @@
   <div class="main">
   <h2>About me </h2>
   <p>i am learing how to code websites from screatch</p>
-  <a href="Myhobbies.html"><button>About Me</button></a> 
       <!--the link above is currently linked to the about me page on git hub not a real/proper page -->
   </div>
   </section>
@@ -35,6 +34,7 @@
     <div class="main">
       <h2> My hobbies </h2>
       <p> all of my hobbies</p>
+       <a href="Myhobbies.html"><button>Myhobbies</button></a> 
     </div>
     <div class="side">
       <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
