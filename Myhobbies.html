@@ -15,14 +15,14 @@
      </header>
 
      
-<div class="container">
+
  <aside>
  <section>
    <div class="container">
     <div class="main">
     <h2>horse riding/Volunteering</h2>
     <p> all of my hobbies</p>
-    <a herf="HorseRiding.html"><button>HorseRiding</button></a>
+    <a herf="Horseriding.html"><button>HorseRiding</button></a>
     </div>
      <div class="side">
       <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
@@ -39,7 +39,7 @@
     </section>
     <!--to be half of the aside one on the left side-->
     
-</div>
+
    </body>
 
 </html>
