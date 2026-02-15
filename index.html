@@ -11,11 +11,11 @@
       <title>My work in Progress</title>
     </head>
     <body>
-    <header><h1>This is my first ever porpholioe</h1>
+    <header><h1>Charlie Thomas</h1>
      <p>My name is chalrie and i am teching my self how to code my own website though tect tutorials</p>
      </header>
 
-
+<!--put somthign her to break the pafe it is lookeing rather good -->
 
   <section>
   <div class="container">
@@ -24,7 +24,8 @@
   </div>
   <div class="main">
   <h2>About me </h2>
-  <p>i am learing how to code websites from screatch</p>
+  <p>I am a 16 year old boy who loves to ride horses and has lots of hobbies on the side. Some of theses are learing how to code with html css and c#, canning, climbing, knitting/chroceting ect. I live in the uk being homeschooled for my a levels. I have got AuDHD (autisum and ADHD).</p>
+   <a href="Todo"><button>To do</button></a> 
       <!--the link above is currently linked to the about me page on git hub not a real/proper page -->
   </div>
   </section>
@@ -33,7 +34,7 @@
    <div class="container"><!--makes it so it move fluid i need to explain better but later -->
     <div class="main">
       <h2> My hobbies </h2>
-      <p> all of my hobbies</p>
+      <p> I have got lots of hobbies in life the have a wide range. From learing how to code to learing how to cane a chare, climbing, making a kit car, knitting/chroecting, 3d printing and Woodworking.</p>
        <a href="Myhobbies.html"><button>Myhobbies</button></a> 
     </div>
     <div class="side">
@@ -50,8 +51,9 @@
       <img scr="image.png" alt="mug shot of me" width="500" height="500"/> <!--i want to put a poem here of mine-->
    </div>
    <dive class="main">
-    <h2> Project 01 </h2>
-    <p>This project is my first ever long term project is is to right a poem book with 100 poems in it and publish it on amazon</p>
+    <h2> Project 01 Poems </h2>
+    <p>This is one of my first long term project which i started which is to wright a poem book with 100 poem in it and publish it my self.</p>
+      <a href="Todo"><button>To do</button></a> 
     </div>
     </div>
    </section>
@@ -61,8 +63,9 @@
    <section><!--section 3 hats-->
    <div class="container">
    <div class="main">
-    <h2>Project 02</h2>
-    <p>To open up my very own bussnies and sell somthing</p>
+    <h2>Project 02 My own Bussnies</h2>
+    <p>My seond long term project was to set up a bussnies and sell beanies. This started from my love of knitting and wanting to make my own bussnies. So I thought I would merge them together and launch my own product on my shopify store. </p>
+      <a href="Todo"><button>To do</button></a> 
     </div>
     <div class="side">
     <img scr="image.png" alt="mug shot of me" width="500" height="500"/> <!--somthing about my small buissnis-->
@@ -77,8 +80,9 @@
     <img scr="image.png" alt="mug shot of me" width="500" height="500"/> <!--photo of the toylander-->
    </div>
    <div class="main">
-    <h2>Project 03</h2>
-    <p>To Make a toylander kit car</p>
+    <h2>Project 03 Kit car </h2>
+    <p>This long term prject started as somthing to do while being home schooled as somthing to do in my free time. I am making a toylander kit car which i am going to sell to my couisons.</p>
+      <a href="Todo"><button>To do</button></a> 
     </div>
     </div>
    </section>
@@ -87,8 +91,9 @@
    <section><!--section 5 coding -->
    <div class="container">
    <div class="main">
-    <h2>Project 04</h2>
-    <p>To Lurn how to code</p>
+    <h2>Project 04 Learning to code</h2>
+    <p>This project is another one I started when being homeschooled and i have lesson on how to code a 2d website on c# every week and making my website i am self teaching at the same time to do somthing extra.</p>
+      <a href="Todo"><button>To do</button></a> 
     </div>
     <div class="side">
      <img scr="image.png" alt="mug shot of me" width="500" height="500"/> <!--photos of code-->
@@ -102,3 +107,5 @@
    </body>
 
 </html>
+
+<!--for the horse riding and volunttering thing put going to london on burt riding at your horse live perter at blenhium and mums event ect-->
