@@ -38,7 +38,10 @@
     <!-- Add stuff like baking, climbing, soap making, hat making etc, canning  -->
     </section>
     <!--to be half of the aside one on the left side-->
-    
+    <footer>
+    <a herf="index.html"><button>Home</button></a>
+   <p>© 2026 My Portfolio</p>
+   </footer>
 
    </body>
 
