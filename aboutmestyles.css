@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+button{
+    color: hotpink;
+    background-color: #f4f7fb;
+    font-weight: 200;
+    border-color: #f4f7fb;
+    box-shadow: #f4f7fb;
+    
+}
+
+
+header{
+    background: palegreen;
+    color: mediumslateblue;
+    text-align: center;
+    padding: 50px ;
+    border-radius: 10px;
+
+}
+h1{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI", Robot, sans-serif;
+    margin: 0;
+    background-color: white;
+    color:aquamarine;
+    
+}
+
+    
+
+h1 {
+   font-size: xx-large;
+   color: black;
+}
+
+
+section{
+    background: white;
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    flex: 50%;
+}
+
+
+
+
+
+section h2{
+margin-top: 0;
+color: black;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 50%;
+    padding: 10px;
+    border-width: 5px;
+    border-color: pink;
+    border-style: solid;
+}
+
+.main{
+    flex: 50%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+img{
+    border-radius: 20px;
+    image-rendering: auto;
+}
+
+image{
+    border-radius: 20px;
+}
+
+footer{
+    background: palegreen;
+    color: mediumslateblue;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 10px;
+}

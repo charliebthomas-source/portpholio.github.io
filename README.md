@@ -17,13 +17,24 @@
 
 
 
+  <section>
+  <div class="container">
+  <div class="side">
+    <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
+  </div>
+  <div class="main">
+  <h2>About me </h2>
+  <p>i am learing how to code websites from screatch</p>
+  <a href="Myhobbies.html"><button>About Me</button></a> 
+      <!--the link above is currently linked to the about me page on git hub not a real/proper page -->
+  </div>
+  </section>
+
    <section><!--section 1 about me -->
    <div class="container"><!--makes it so it move fluid i need to explain better but later -->
     <div class="main">
-      <h2> About me </h2>
-      <p> i am learing how to code websites from screatch</p>
-      <a href="./About.html"><button>About Me</button></a> 
-      <!--the link above is currently linked to the about me page on git hub not a real/proper page -->
+      <h2> My hobbies </h2>
+      <p> all of my hobbies</p>
     </div>
     <div class="side">
       <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 

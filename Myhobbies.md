@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="aboutmestyles.css" 
+        type="text/css">
+     <title>My hobbies</title>
+    </head>
+    <body>
+    <header><h1>My hobbies</h1>
+     <p>This is the about me section</p>
+     <h3>I have many hobbies in life</h3>
+    <p>
+    I have many hobbies which i enjoy and build up how i spen my free times and what i enjoy to do. My hobbies are random and dont link together in any way. From my main hobby if horse riding to hand canning chairs and knitting and chrocheting and even being an entrepenure. 
+    </p>
+     </header>
+
+     
+<div class="container">
+ <aside>
+ <section>
+   <div class="container">
+    <div class="main">
+    <h2>horse riding/Volunteering</h2>
+    <p> all of my hobbies</p>
+    <a herf="HorseRiding.html"><button>HorseRiding</button></a>
+    </div>
+     <div class="side">
+      <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
+    </div>
+    </div>
+</section>
+</aside>
+    <section>
+    <h2>Knitting</h2>
+    <p>I love to knit and i have been doing it for a long time and i was taght by my granny</p>
+    <br><!--this make a line gap-->
+    <h2>Candle making</h2>
+    <!-- Add stuff like baking, climbing, soap making, hat making etc, canning  -->
+    </section>
+    <!--to be half of the aside one on the left side-->
+    
+</div>
+   </body>
+
+</html>
