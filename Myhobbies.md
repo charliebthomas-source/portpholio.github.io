@@ -1,49 +1,129 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="aboutmestyles.css" 
-        type="text/css">
-     <title>My hobbies</title>
+
+  <head>
+    <link rel="stylesheet" href="aboutmestyles.css" type="text/css">
+    <title>My hobbies</title>
     </head>
     <body>
     <header><h1>My hobbies</h1>
-     <p>This is the about me section</p>
-     <h3>I have many hobbies in life</h3>
+    <p>This is the about me section</p>
+  </header>
+
+
+
+  <section>
+    <h2>I have many hobbies in life</h2>
     <p>
     I have many hobbies which i enjoy and build up how i spen my free times and what i enjoy to do. My hobbies are random and dont link together in any way. From my main hobby if horse riding to hand canning chairs and knitting and chrocheting and even being an entrepenure. 
     </p>
-     </header>
+   </section>
 
      
 
- <aside>
- <section>
+ 
+<section>
    <div class="container">
-    <div class="main">
-    <h2>horse riding/Volunteering</h2>
-    <p> all of my hobbies</p>
-    <a href="Horseriding.html"><button>Myhobbies</button></a> 
-    </div>
-     <div class="side">
-      <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
-    </div>
-    </div>
+   <div class="main">
+   <h2>horse riding/Volunteering</h2>
+   <p> all of my hobbies</p>
+   <a href="Horseriding.html"><button>Myhobbies</button></a> 
+   </div>
+   <div class="side">
+   <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
+   </div>
+   </div>
 </section>
-</aside>
-    <section>
+
+
+<section>
+    <div class="container">
+    <div class="side">
+    <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
+    </div>
+    <div class="main">
     <h2>Knitting</h2>
     <p>I love to knit and i have been doing it for a long time and i was taght by my granny</p>
-    <br><!--this make a line gap-->
-    <h2>Candle making</h2>
+    <a herf="info here"><button>To Do</button></a>
+    </div>
+    </div>
     <!-- Add stuff like baking, climbing, soap making, hat making etc, canning  -->
-    </section>
-    <!--to be half of the aside one on the left side-->
-    <footer>
-     <a href="index.html"><button>Myhobbies</button></a> 
-   <p>© 2026 My Portfolio</p>
-   </footer>
+  </section>
+
+  <section>
+    <div class="container">
+    <div class="main">
+    <h2>Candle making</h2>
+    <p>lol</p>
+    <a herf="info here"><button>To Do</button></a>
+    </div>
+    <div class="side">
+    <img scr="image.png" alt="mug shot of me" width="500" height="500"/>
+    </div>
+    </div>
+
+
+  <section>
+    <div class="container">
+    <div class="side">
+    <img scr="image.png" alt="mug shot of me" width="500" height="500"/>
+    </div>
+    <div class ="main">
+    <h2>Baking and cooking</h2>
+    <p>Text</p>
+    <a herf="info here"><button>Backing and cooking</button></a>
+    </div>
+    </div>
+  </section>
+  <!-- Add stuff like baking done, climbing, soap making, hat making etc, canning  -->
+
+  <section>
+    <div class="container">
+    <div class="main">
+    <h2>Climbing</h2>
+    <p>info here</p>
+    <a herf="info here"><button>To Do</button></a>
+    </div>
+    <div class="side">
+    <img scr="image.png" alt="mug shot of me" width="500" height="500"/>
+    </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+   <div class="side">
+   <img scr="image.png" alt="mug shot of me" width="500" height="500"/>
+   </div>
+   <div class="main">
+    <h2>Soap and candle making</h2>
+    <p>info here</p>
+    <a herf="info here"><button>To Do</button></a>
+    </div>
+    </div>
+  </section>
+
+
+  <section>
+  <div class="container">
+  <div class="main">
+  <h2>Canning</h2>
+  <p>info gose here</p>
+  <a herf="info here"><button>To Do</button></a>
+  </div>
+  <div class="side">
+  <img scr="image.png" alt="mug shot of me" width="500" height="500"/>
+  </div>
+  </div>
+  </section>
+
+
+
+  <footer>
+    <a href="index.html"><button>Home</button></a> 
+    <p>© 2026 My Portfolio</p>
+  </footer>
 
    </body>
 
 </html>
-

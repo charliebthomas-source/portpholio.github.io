@@ -3,21 +3,23 @@
 }
 
 button{
-    color: hotpink;
-    background-color: #f4f7fb;
+    color: #FEFEFE;
+    background-color: #081F62;
     font-weight: 200;
-    border-color: #f4f7fb;
-    box-shadow: #f4f7fb;
+    border-color: #535F80;
+    border-radius: 5px;
     
 }
 
 
+
 header{
-    background: palegreen;
-    color: mediumslateblue;
+    /*background:linear-gradient(90deg,#4F4F51,#2C2B30);*/
+    background-color: #FEFEFE;
+    color: #081F62;
     text-align: center;
     padding: 50px ;
-    border-radius: 10px;
+   
 
 }
 h1{
@@ -28,8 +30,6 @@ h1{
 body {
     font-family: "Segoe UI", Robot, sans-serif;
     margin: 0;
-    background-color: white;
-    color:aquamarine;
     
 }
 
@@ -37,26 +37,24 @@ body {
 
 h1 {
    font-size: xx-large;
-   color: black;
+   color: #051747;
+;
 }
 
 
 section{
-    background: white;
-    color: black;
-    border-color: black;
+    background:#E7E9F0;
+    color: #535F80;
+    border-color: #E7E9F0;
     border-width: 5px;
     border-style: solid;
-    flex: 50%;
 }
-
-
 
 
 
 section h2{
 margin-top: 0;
-color: black;
+color: #081F62;
 }
 
 .container{
@@ -95,9 +93,18 @@ image{
 }
 
 footer{
-    background: palegreen;
-    color: mediumslateblue;
+    background: #051747;
+    color: #E7E9F0;
     text-align: center;
     padding: 10px ;
     border-radius: 10px;
 }
+
+/*
+    color: #FEFEFE; white 
+    color: #E7E9F0;white with a hint of blue
+    color: #051747; dark blue
+    color: #535F80; drk blue grey 
+    color: #081F62; dark blue white 
+
+*/
