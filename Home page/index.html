@@ -25,7 +25,7 @@
   <div class="main">
   <h2>About me </h2>
   <p>I am a 16 year old boy who loves to ride horses and has lots of hobbies on the side. Some of theses are learing how to code with html css and c#, canning, climbing, knitting/chroceting ect. I live in the uk being homeschooled for my a levels. I have got AuDHD (autisum and ADHD).</p>
-   <a href="Todo"><button>To do</button></a> 
+   <a href="AboutMe.html"><button>About Me</button></a> 
       <!--the link above is currently linked to the about me page on git hub not a real/proper page -->
   </div>
   </section>
@@ -82,7 +82,7 @@
    <div class="main">
     <h2>Project 03 Kit car </h2>
     <p>This long term prject started as somthing to do while being home schooled as somthing to do in my free time. I am making a toylander kit car which i am going to sell to my couisons.</p>
-      <a href="Todo"><button>To do</button></a> 
+      <a href="KitCar.html"><button>Kit Car</button></a> 
     </div>
     </div>
    </section>

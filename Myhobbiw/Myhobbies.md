@@ -70,7 +70,7 @@
     </div>
     <div class ="main">
     <h2>Baking and cooking</h2>
-    <p>Text</p>
+    <p>I love to bake amd cook all the time. I make all my brother and mine birthday cakes. I have also got into making sourghdough bread. As well as being able to cook lots of diffrent types of meals.</p>
     <a herf="info here"><button>Backing and cooking</button></a>
     </div>
     </div>
@@ -81,7 +81,7 @@
     <div class="container">
     <div class="main">
     <h2>Climbing</h2>
-    <p>info here</p>
+    <p>I started to lurn how to rock climb when i was about 9 years old at my school and really getting into it. After that i got a boldering wall at home and did a lot of climbing at home. I also love to climb up all my trees at home and at school.</p>
     <a herf="info here"><button>To Do</button></a>
     </div>
     <div class="side">
@@ -97,7 +97,7 @@
    </div>
    <div class="main">
     <h2>Soap and candle making</h2>
-    <p>info here</p>
+    <p>I started to lurn how to make candles as i got given a candle making kit for a christmas presant. Then i got really into it and make loads of candle and though i should also make soap as they are sort of the same things.</p>
     <a herf="info here"><button>To Do</button></a>
     </div>
     </div>
@@ -108,7 +108,7 @@
   <div class="container">
   <div class="main">
   <h2>Canning</h2>
-  <p>info gose here</p>
+  <p>I started to lurn canning when i was home schooled and she wanted me to mend her chairs.</p>
   <a herf="info here"><button>To Do</button></a>
   </div>
   <div class="side">
