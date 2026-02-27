@@ -134,18 +134,6 @@ footer{
     float: left;
 }
 
-.dropdown .dropbtn {
-    font-size: 17px;
-    border: none;
-    outline: none;
-    color: #081F62;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-weight: bold;
-    cursor: pointer;
-
-}
-
 
 .dropdown-content {
     display: none;
