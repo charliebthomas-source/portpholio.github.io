@@ -100,27 +100,30 @@ footer{
     border-radius: 10px;
 }
 
+/* all of this bellof is for the nav bar */
+
 .topnav {
     background-color: #535F80;
     overflow: hidden;
 }
 
 .topnav a {
- float: right;
+ float: left;
  color: #081F62;
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
  font-size: 17px;
+ font-weight: bold;
 }
 
 .topnav a:hover {
-    background-color: aqua;
-    color: aliceblue;
+    background-color: #081F62;
+    color: #aaa;
 }
 .topnav a.active {
     background-color: #051747;
-    color: #535F80;
+    color: #E7E9F0;
 }
 
 /*
