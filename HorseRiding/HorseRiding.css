@@ -99,6 +99,52 @@ footer{
     padding: 10px ;
     border-radius: 10px;
 }
+.topnav {
+    background-color: #535F80;
+    overflow: hidden;
+}
+
+.topnav a {
+ float: left;
+ color: #081F62;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+ font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #081F62;
+    color: #aaa;
+}
+.topnav a.active {
+    background-color: #051747;
+    color: #E7E9F0;
+}
+.topnav {
+    background-color: #535F80;
+    overflow: hidden;
+}
+
+.topnav a {
+ float: left;
+ color: #081F62;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+ font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #081F62;
+    color: #aaa;
+}
+.topnav a.active {
+    background-color: #051747;
+    color: #E7E9F0;
+}
 
 /*
     color: #FEFEFE; white 
