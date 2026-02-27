@@ -130,6 +130,9 @@ footer{
     float: left;
     overflow: hidden;
 }
+.drop-link {
+    float: left;
+}
 
 .dropdown .dropbtn {
     font-size: 17px;
