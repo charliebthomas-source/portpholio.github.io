@@ -160,6 +160,12 @@ footer{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.topnav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 /*
     color: #FEFEFE; white 
     color: #E7E9F0;white with a hint of blue
