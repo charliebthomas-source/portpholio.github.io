@@ -105,6 +105,7 @@ footer{
 .topnav {
     background-color: #535F80;
     overflow: visible;
+    position: relative;
 }
 
 .topnav a {
@@ -143,7 +144,7 @@ footer{
     left: 0;
     background-color: #535F80;
     min-height: 160px;
-    z-index: 1;
+    z-index: 3;
 }
 
 .dropdown-content a {
