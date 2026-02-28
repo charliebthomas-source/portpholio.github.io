@@ -144,7 +144,8 @@ footer{
     left: 0;
     background-color: #535F80;
     min-height: 160px;
-    z-index: 3;
+    z-index: 999;
+    min-height: 20px;
 }
 
 .dropdown-content a {
