@@ -104,7 +104,7 @@ footer{
 
 .topnav {
     background-color: #535F80;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .topnav a {
