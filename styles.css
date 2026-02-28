@@ -175,13 +175,6 @@ footer{
 */
 .topnav {
   background-color: #535F80;
-  position: relative;
-}
-
-.topnav::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .topnav a {
@@ -202,7 +195,7 @@ footer{
   top: 100%;
   left: 0;
   background-color: #535F80;
-  min-width: 160px;
+  min-width: 180px;
   z-index: 9999;
 }
 
