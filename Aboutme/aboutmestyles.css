@@ -63,15 +63,23 @@ color: #081F62;
 }
 
 .side{
-    flex: 50%;
+    flex: 33.3%;
     padding: 10px;
     border-width: 5px;
     border-color: pink;
     border-style: solid;
 }
 
-.main{
-    flex: 50%;
+.middle{
+    flex: 33.3%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sideleft{
+    flex: 33.3%;
     padding-bottom: 50px;
     padding-top: 50px;
     padding-left: 20px;
