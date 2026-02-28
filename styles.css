@@ -163,7 +163,7 @@ footer{
 
 
 .dropdown:hover .dropdown-content {
-    display:flex;
+    display: block;
 }
 
 /*
