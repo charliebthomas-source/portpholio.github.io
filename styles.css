@@ -131,6 +131,7 @@ footer{
 .dropdown {
     float: left;
     overflow: hidden;
+    position: relative;
 }
 .drop-link {
     float: left;
@@ -141,8 +142,10 @@ footer{
     display: none;
     position: absolute;
     background-color: #535F80;
-    min-height: 160px;
-    z-index: 2;
+    min-width: 160px;
+    z-index: 9999;
+    left: 0;
+    top: 100%;
 }
 
 .dropdown-content a {
@@ -159,8 +162,11 @@ footer{
 }
 
 
-.dropdown:hover .dropdown-content {
+
+.topnav::after {
+  content: "";
   display: block;
+  clear: both;
 }
 
 
