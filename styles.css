@@ -102,8 +102,72 @@ footer{
 
 /* all of this bellof is for the nav bar */
 
+.topnav {
+  background-color: #535F80;
+  /* do NOT set overflow hidden */
+  position: relative; /* optional */
+  font-family: sans-serif;
+}
 
+.topnav a {
+  float: left;
+  color: #081F62;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
 
+.topnav a:hover {
+  background-color: #081F62;
+  color: #aaa;
+}
+
+.topnav a.active {
+  background-color: #051747;
+  color: #E7E9F0;
+}
+
+.dropdown {
+  float: left;
+  position: relative; /* anchor for dropdown-content */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  background-color: #535F80;
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  color: #081F62;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #081F62;
+  color: #aaa;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* clearfix for topnav */
+.topnav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
 .topnav {
     background-color: #535F80;
     overflow: hidden;
@@ -148,16 +212,6 @@ footer{
     top: 100%;
 }
 
-/*
-.dropdown-content a {
-    float: none;
-    color: #081F62;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-}
-*/
 .dropdown-content a {
   display: block;
   padding: 12px 16px;
@@ -176,7 +230,7 @@ footer{
 }
 
 
-
+*/
 
 /*
 .topnav {
