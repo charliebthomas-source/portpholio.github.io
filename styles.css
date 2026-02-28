@@ -125,13 +125,11 @@ footer{
 .topnav a:hover {
     background-color: #081F62;
     color: #aaa;
-    z-index: 100;
 }
 
 .topnav a.active {
     background-color: #051747;
     color: #E7E9F0;
-    z-index: 100;
 }
 
 .dropdown {
