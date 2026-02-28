@@ -102,23 +102,25 @@ footer{
 
 /* all of this bellof is for the nav bar */
 
+/* Top navigation */
 .topnav {
   background-color: #535F80;
-  /* do NOT set overflow hidden */
-  position: relative; /* optional */
   font-family: sans-serif;
+  position: relative; /* optional, just for stacking */
+  /* DO NOT set overflow: hidden; */
 }
 
+/* Links in the nav */
 .topnav a {
   float: left;
-  color: #081F62;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  color: #081F62;
   font-weight: bold;
+  font-size: 17px;
 }
 
+/* Hover and active states */
 .topnav a:hover {
   background-color: #081F62;
   color: #aaa;
@@ -129,21 +131,24 @@ footer{
   color: #E7E9F0;
 }
 
+/* Dropdown container */
 .dropdown {
   float: left;
-  position: relative; /* anchor for dropdown-content */
+  position: relative; /* makes dropdown-content absolute inside this */
 }
 
+/* Dropdown menu */
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 100%; /* just below the parent link */
   left: 0;
-  min-width: 160px;
   background-color: #535F80;
-  z-index: 1000;
+  min-width: 160px;
+  z-index: 9999;
 }
 
+/* Dropdown links */
 .dropdown-content a {
   display: block;
   padding: 12px 16px;
@@ -156,11 +161,12 @@ footer{
   color: #aaa;
 }
 
+/* Show dropdown on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* clearfix for topnav */
+/* Clear floats */
 .topnav::after {
   content: "";
   display: table;
