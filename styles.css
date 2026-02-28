@@ -126,6 +126,7 @@ footer{
     background-color: #081F62;
     color: #aaa;
 }
+
 .topnav a.active {
     background-color: #051747;
     color: #E7E9F0;
@@ -148,7 +149,7 @@ footer{
     left: 0;
     background-color: #535F80;
     z-index: 999;
-    min-widtht: 180px;
+    min-width: 180px;
 }
 
 .dropdown-content a {
@@ -165,12 +166,13 @@ footer{
     display: block;
 }
 
+/*
 .topnav::after {
   content: "";
   display: block;
   clear: both;
 }
-
+*/
 
 
 /*
