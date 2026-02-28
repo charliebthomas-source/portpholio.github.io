@@ -140,7 +140,8 @@ footer{
     position: absolute;
     background-color: #535F80;
     min-height: 160px;
-    z-index: 8;
+    margin-top: 20px;
+    z-index: 1;
 }
 
 .dropdown-content a {
