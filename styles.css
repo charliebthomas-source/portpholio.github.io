@@ -102,6 +102,11 @@ footer{
 
 /* all of this bellof is for the nav bar */
 
+
+
+
+/*
+
 .topnav {
     background-color: #535F80;
     overflow: visible;
@@ -166,6 +171,50 @@ footer{
   display: block;
   clear: both;
 }
+
+*/
+.topnav {
+  background-color: #535F80;
+  position: relative;
+}
+
+.topnav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.topnav a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  position: relative;
+  overflow: visible;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #535F80;
+  min-width: 160px;
+  z-index: 9999;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /*
     color: #FEFEFE; white 
     color: #E7E9F0;white with a hint of blue
