@@ -105,7 +105,7 @@ footer{
 .topnav {
   background-color: #535F80;
   font-family: sans-serif;
-  position: relative; /* stacking context for dropdown */
+  position: relative; 
 }
 
 .topnav a {
@@ -139,7 +139,7 @@ footer{
   left: 0;
   min-width: 160px;
   background-color: #535F80;
-  z-index: 10000; /* slightly higher to avoid stacking issues */
+  z-index: 10000; 
 }
 
 .dropdown-content a {
