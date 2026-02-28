@@ -105,12 +105,10 @@ footer{
 
 
 
-/*
+
 
 .topnav {
     background-color: #535F80;
-    overflow: visible;
-    position: relative;
 }
 
 .topnav a {
@@ -122,6 +120,7 @@ footer{
  font-size: 17px;
  font-weight: bold;
 }
+ 
 
 .topnav a:hover {
     background-color: #081F62;
@@ -148,9 +147,8 @@ footer{
     top: 100%;
     left: 0;
     background-color: #535F80;
-    min-height: 160px;
     z-index: 999;
-    min-height: 20px;
+    min-widtht: 180px;
 }
 
 .dropdown-content a {
@@ -162,6 +160,7 @@ footer{
     text-align: center;
 }
 
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -172,7 +171,9 @@ footer{
   clear: both;
 }
 
-*/
+
+
+/*
 .topnav {
   background-color: #535F80;
 }
@@ -215,7 +216,7 @@ footer{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+*/
 /*
     color: #FEFEFE; white 
     color: #E7E9F0;white with a hint of blue
