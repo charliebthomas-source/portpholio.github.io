@@ -148,6 +148,7 @@ footer{
     top: 100%;
 }
 
+/*
 .dropdown-content a {
     float: none;
     color: #081F62;
@@ -155,6 +156,11 @@ footer{
     text-decoration: none;
     display: block;
     text-align: center;
+}
+*/
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
 }
 
 .dropdown:hover .dropdown-content {
