@@ -129,7 +129,6 @@ footer{
 
 .dropdown {
     float: left;
-    overflow: visible;
     position: relative;
 }
 .drop-link {
