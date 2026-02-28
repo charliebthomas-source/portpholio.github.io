@@ -177,10 +177,18 @@ footer{
   background-color: #535F80;
 }
 
+.topnav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .topnav a {
   float: left;
   padding: 14px 16px;
   text-decoration: none;
+  color: #081F62;
+  font-weight: bold;
 }
 
 .dropdown {
