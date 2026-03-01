@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+button{
+    color: #FEFEFE;
+    background-color: #081F62;
+    font-weight: 200;
+    border-color: #535F80;
+    border-radius: 5px;
+    
+}
+
+
+
+header{
+    /*background:linear-gradient(90deg,#4F4F51,#2C2B30);*/
+    background-color: #FEFEFE;
+    color: #081F62;
+    text-align: center;
+    padding: 50px ;
+   
+
+}
+h1{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI", Robot, sans-serif;
+    margin: 0;
+    
+}
+
+    
+
+h1 {
+   font-size: xx-large;
+   color: #051747;
+;
+}
+
+
+section{
+    background:#E7E9F0;
+    color: #535F80;
+    border-color: #E7E9F0;
+    border-width: 5px;
+    border-style: solid;
+}
+
+
+
+section h2{
+margin-top: 0;
+color: #081F62;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 50%;
+    padding: 10px;
+    border-width: 5px;
+    border-color: pink;
+    border-style: solid;
+}
+
+.main{
+    flex: 50%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+img{
+    border-radius: 20px;
+    image-rendering: auto;
+}
+
+image{
+    border-radius: 20px;
+}
+
+footer{
+    background: #051747;
+    color: #E7E9F0;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+/* all of this bellof is for the nav bar */
+
+.topnav {
+  background-color: #535F80;
+  font-family: sans-serif;
+  position: relative; 
+}
+
+.topnav a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #081F62;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #081F62;
+  color: #aaa;
+}
+
+.topnav a.active {
+  background-color: #051747;
+  color: #E7E9F0;
+}
+
+.dropdown {
+  float: left;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  background-color: #535F80;
+  z-index: 10000; 
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  color: #081F62;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #081F62;
+  color: #aaa;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dropdown-content-outside {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: #535F80;
+  z-index: 10000;
+}
+
+.dropdown-content-outside a {
+  display: block;
+  padding: 12px 16px;
+  color: #081F62;
+  text-decoration: none;
+}
+
+.dropdown-content-outside a:hover {
+  background-color: #081F62;
+  color: #aaa;
+}
+/*
+    color: #FEFEFE; white 
+    color: #E7E9F0;white with a hint of blue
+    color: #051747; dark blue
+    color: #535F80; drk blue grey 
+    color: #081F62; dark blue white 
+
+*/
