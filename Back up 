@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Linking to the style sheet-->
+        <link rel="stylesheet" href="styles.css" 
+        type="text/css">
+         <!--Linking to the style sheet-->
+      <title>My work in Progress</title>
+    </head>
+    <body>
+      
+
+      <div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="Aboutme/AboutMe.html">AboutMe</a>
+  <a href="My hobbies/Myhobbies.html" class="drop-link" data-dropdown="hobbies">My Hobbies</a>
+  <a href="Poems/Poems.html">Poems</a>
+  <a href="Hats/Hats.html">Hats</a>
+  <a href="Kit Car/KitCar.html">Kit Car</a>
+  <a href="Coding /Coding.html">Coding</a>
+</div>
+
+<!-- Dropdown outside topnav -->
+<div class="dropdown-content-outside" id="hobbies">
+  <a href="My hobbies/HorseRiding/Horseriding.html">Horserse riding and Volunterring</a>
+  <a href="My hobbies/Knitting/Knitting.html">knitting and chroceting</a>
+  <a href="My hobbies/Backingandcooking/Backigandcooking.html">Baking and Cooking</a>
+  <a href="My hobbies/Climbing/Climbing.html">Climbing</a>
+  <a href="My hobbies/Candlemaking/CandleMAking.html">soap and candle making</a>
+  <a href="My hobbies/canning/Canning.html">Canning</a>
+</div>
+
+    <header><h1>Charlie Thomas</h1>
+     <p>Student | Aspiring Developer | Creator</p>
+     </header>
+
+     <section>
+      Hello! My name is Charlie and I am currently teaching myself how to code.
+I built this website as a personal project to practise web development and to share some of the hobbies and projects that I enjoy.
+I am currently learning HTML, CSS, and C#, and I plan to continue expanding my knowledge into Java and other programming languages.
+
+<!--put somthign her to break the pafe it is lookeing rather good -->
+
+  <section>
+  <div class="container">
+  <div class="side">
+   <img src="./Photos/image.png" alt=" me" width="500px" hight="500px"> 
+  </div>
+  <div class="main">
+  <h2>About me </h2>
+  <p>I am a 16 year old boy who loves to ride horses and has lots of hobbies on the side. Some of theses are learing how to code with html css and c#, canning, climbing, knitting/chroceting ect. I live in the uk being homeschooled for my a levels. I have got AuDHD (autisum and ADHD).</p>
+   <a href="Aboutme/AboutMe.html"><button>Learn About Me</button></a> 
+      <!--the link above is currently linked to the about me page on git hub not a real/proper page -->
+  </div>
+  </section>
+
+   <section><!--section 1 about me -->
+   <div class="container"><!--makes it so it move fluid i need to explain better but later -->
+    <div class="main">
+      <h2> My hobbies </h2>
+      <p> I have got lots of hobbies in life the have a wide range. From learing how to code to learing how to cane a chare, climbing, making a kit car, knitting/chroecting, 3d printing and Woodworking.</p>
+       <a href="My hobbies/Myhobbies.html"><button>Myhobbies</button></a> 
+    </div>
+    <div class="side">
+      <img scr="image.png" alt="mug shot of me" width="500" height="500"/> 
+      <!--need to put a real photo in here--> <!--this image wont work but will make it work when everhting else is-->
+    </div>
+    </div>
+   </section>
+ 
+ 
+   <section><!--section 2 poems -->
+    <div class="container">
+   <div class="side">
+      <img scr="image.png" alt="mug shot of me" width="500" height="500"/> <!--i want to put a poem here of mine-->
+   </div>
+   <div class="main">
+    <h2> Project 01 Poems </h2>
+    <p>This is one of my first long term project which i started which is to wright a poem book with 100 poem in it and publish it my self.</p>
+      <a href="Poems/Poems.html"><button>Poems</button></a> 
+    </div>
+    </div>
+   </section>
+
+
+
+   <section><!--section 3 hats-->
+   <div class="container">
+   <div class="main">
+    <h2>Project 02 My own Bussnies</h2>
+    <p>My seond long term project was to set up a bussnies and sell beanies. This started from my love of knitting and wanting to make my own bussnies. So I thought I would merge them together and launch my own product on my shopify store. </p>
+      <a href="Hats/Hats.html"><button>Hats</button></a> 
+    </div>
+    <div class="side">
+    <img scr="image.png" alt="mug shot of me" width="500" height="500"/> <!--somthing about my small buissnis-->
+    </div>
+    </div>
+   </section>
+
+
+   <section><!--section 4 kit car-->
+   <div class="container">
+   <div class="side">
+    <img scr="image.png" alt="mug shot of me" width="500" height="500"/> <!--photo of the toylander-->
+   </div>
+   <div class="main">
+    <h2>Project 03 Kit car </h2>
+    <p>This long term prject started as somthing to do while being home schooled as somthing to do in my free time. I am making a toylander kit car which i am going to sell to my couisons.</p>
+      <a href="Kit Car/KitCar.html"><button>To do</button></a> 
+    </div>
+    </div>
+   </section>
+
+
+   <section><!--section 5 coding -->
+   <div class="container">
+   <div class="main">
+    <h2>Project 04 Learning to code</h2>
+    <p>This project is another one I started when being homeschooled and i have lesson on how to code a 2d website on c# every week and making my website i am self teaching at the same time to do somthing extra.</p>
+      <a href="Coding /Coding.html"><button>Coding</button></a> 
+    </div>
+    <div class="side">
+     <img scr="image.png" alt="mug shot of me" width="500" height="500"/> <!--photos of code-->
+    </div>
+   </section>
+   </div>
+
+   <footer>
+   <p>© 2026 My Portfolio</p>
+   </footer>
+   <script src="dropdown.js"></script>
+   </body>
+
+   
+</html>
+
+<!--for the horse riding and volunttering thing put going to london on burt riding at your horse live perter at blenhium and mums event ect-->
+
+
+*{
+    box-sizing: border-box;
+}
+
+button{
+    color: #FEFEFE;
+    background-color: #081F62;
+    font-weight: 200;
+    border-color: #535F80;
+    border-radius: 5px;
+    
+}
+
+
+
+header{
+    /*background:linear-gradient(90deg,#4F4F51,#2C2B30);*/
+    background-color: #FEFEFE;
+    color: #081F62;
+    text-align: center;
+    padding: 50px ;
+   
+
+}
+h1{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI", Robot, sans-serif;
+    margin: 0;
+    
+}
+
+    
+
+h1 {
+   font-size: xx-large;
+   color: #051747;
+;
+}
+
+
+section{
+    background:#E7E9F0;
+    color: #535F80;
+    border-color: #E7E9F0;
+    border-width: 5px;
+    border-style: solid;
+}
+
+
+
+section h2{
+margin-top: 0;
+color: #081F62;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 50%;
+    padding: 10px;
+    border-width: 5px;
+    border-color: pink;
+    border-style: solid;
+}
+
+.main{
+    flex: 50%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+img{
+    border-radius: 20px;
+    image-rendering: auto;
+}
+
+image{
+    border-radius: 20px;
+}
+
+footer{
+    background: #051747;
+    color: #E7E9F0;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+/* all of this bellof is for the nav bar */
+
+.topnav {
+  background-color: #535F80;
+  font-family: sans-serif;
+  position: relative; 
+}
+
+.topnav a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #081F62;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #081F62;
+  color: #aaa;
+}
+
+.topnav a.active {
+  background-color: #051747;
+  color: #E7E9F0;
+}
+
+.dropdown {
+  float: left;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  background-color: #535F80;
+  z-index: 10000; 
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  color: #081F62;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #081F62;
+  color: #aaa;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dropdown-content-outside {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: #535F80;
+  z-index: 10000;
+}
+
+.dropdown-content-outside a {
+  display: block;
+  padding: 12px 16px;
+  color: #081F62;
+  text-decoration: none;
+}
+
+.dropdown-content-outside a:hover {
+  background-color: #081F62;
+  color: #aaa;
+}
+/*
+    color: #FEFEFE; white 
+    color: #E7E9F0;white with a hint of blue
+    color: #051747; dark blue
+    color: #535F80; drk blue grey 
+    color: #081F62; dark blue white 
+
+*/
