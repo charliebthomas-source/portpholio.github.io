@@ -107,3 +107,42 @@ h1 span {
   width: 100%;
   border-radius: 24px;
 }
+
+
+#aboutme{
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 80px 2rem 4rem;
+      max-width: 1100px;
+      margin: 0 auto;
+} 
+
+.aboutme-inner{
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+      gap: 4rem;
+      align-items: center;
+      width: 100%;
+}
+
+ p {
+  font-size: 1.05rem;
+  color: var(--brown);
+  margin-bottom: 2rem;
+}
+
+h2{
+  font-family: var(--font-head);
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 3rem;
+}
+
+.aboutmeleftside{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
