@@ -134,11 +134,12 @@ h1 span {
 }
 
 h2{
-  font-family: var(--font-head);
-  font-size: clamp(2rem, 3.5vw, 3rem);
-  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 3rem;
+  margin-bottom: 0.75rem;
 }
 
 .aboutmeleftside{
