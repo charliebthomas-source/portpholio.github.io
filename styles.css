@@ -35,7 +35,7 @@
 
     .hero-tag {
       display: inline-block;
-      background: var(--accent);
+      background: var(--warm);
       color: var(--white);
       font-size: 0.75rem;
       font-weight: 500;
@@ -116,8 +116,10 @@ h1 span {
       padding: 80px 2rem 4rem;
       max-width: 1100px;
       margin: 0 auto;
-      background-color: var(--cream);
+      background-color: var(--white);
+      background: var(--white);
 } 
+
 
 .aboutme-inner{
       display: grid;
@@ -142,9 +144,3 @@ h2{
   margin-bottom: 0.75rem;
 }
 
-.aboutmeleftside{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: start;
-}
