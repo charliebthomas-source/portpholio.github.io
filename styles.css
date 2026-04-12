@@ -315,9 +315,10 @@ h2{
 }
 
 .photo-box {
-  background-color: #D4845A;
+  
   border-radius: 16px;
-  padding: 50px;
+ color: #D4845A;
+ padding: 20px;
   
 
 }
