@@ -272,7 +272,7 @@ h2{
 
 .project-cards img {
   height: 50%;
-  width: auto;
+  width: 100%;
 }
 
 .project-card-header {
