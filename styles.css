@@ -271,6 +271,7 @@ h2{
 .project-cards {
   border-radius: 15px;
   background-color: var(--sand);
+  padding: 20px ;
 }
 
 .project-cards img {
