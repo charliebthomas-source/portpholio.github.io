@@ -298,8 +298,9 @@ h2{
       padding: 80px 2rem 4rem;
       max-width: 1100px;
       margin: 0 auto;
-      background-color: var(--white);
-      background: var(--white);
+      background-color: var(--cream);
+      background: var(--cream);
+      
 }
 
 .photos-inner {
@@ -308,6 +309,7 @@ h2{
 }
 
 .photos-layout {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
@@ -315,4 +317,5 @@ h2{
 .photo-box {
   background-color: #D4845A;
   border-radius: 16px;
+  
 }
