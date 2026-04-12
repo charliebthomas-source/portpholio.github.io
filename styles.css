@@ -148,7 +148,7 @@ margin-bottom: 0.75rem;
   align-items: start;
 }
 
-.about-text p {
+.text p {
   color: var(--brown);
   margin-bottom: 1 rem;
 }
@@ -243,3 +243,27 @@ h2{
   min-width: 36px;
   text-align: right;
 }
+
+#Myprojects {
+        min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 80px 2rem 4rem;
+      max-width: 1100px;
+      margin: 0 auto;
+      background-color: var(--white);
+      background: var(--white);
+}
+
+.projects-inner {
+    max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.project-cards {
+  grid-column: 1fr 1fr;
+  border-radius: 15px;
+  background-color: var(--sand);
+}
+
