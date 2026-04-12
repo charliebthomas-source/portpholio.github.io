@@ -257,12 +257,16 @@ h2{
 
 .projects-inner {
     max-width: 1100px;
-   display: grid;
+    margin: 0 auto;
+
+}
+
+.project {
+    display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
   margin-top: 2rem;
 }
-
 
 .project-cards {
   border-radius: 15px;
