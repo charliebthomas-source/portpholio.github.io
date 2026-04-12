@@ -267,3 +267,14 @@ h2{
   background-color: var(--sand);
 }
 
+.project-card-header {
+  color: var(--brown);
+}
+
+.top {
+  align-items: start;
+}
+
+.project-card-bottom {
+  align-self: center;
+}
