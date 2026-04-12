@@ -257,7 +257,10 @@ h2{
 
 .projects-inner {
     max-width: 1100px;
-  margin: 0 auto;
+   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 2rem;
 }
 
 
@@ -275,14 +278,3 @@ h2{
   color: var(--brown);
 }
 
-.top {
-  align-items: start;
-  background-color: #D4845A;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.project-card-bottom {
-  align-self: center;
-  background-color: aqua;
-}
