@@ -263,7 +263,7 @@ h2{
 
 .project-cards {
   display: flex;
-  grid-column: 1fr 1fr;
+  grid-row: 1fr 1fr;
   border-radius: 15px;
   background-color: var(--sand);
 }
