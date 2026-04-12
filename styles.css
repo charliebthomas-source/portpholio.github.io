@@ -251,8 +251,8 @@ h2{
       padding: 80px 2rem 4rem;
       max-width: 1100px;
       margin: 0 auto;
-      background-color: var(--white);
-      background: var(--white);
+      background-color: var(--cream);
+      background: var(--cream);
       
 }
 
@@ -262,13 +262,7 @@ h2{
 
 }
 
-.hope {
-    display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-top: 2rem;
-  display: flex;
-}
+
 
 .project-cards {
   border-radius: 15px;
