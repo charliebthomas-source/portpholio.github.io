@@ -16,6 +16,11 @@
     }
 
 
+
+section { padding: 6rem 2rem; }  
+.section-inner { max-width: 1100px; margin: 0 auto; }
+
+
     #hero {
       min-height: 100vh;
       display: flex;
