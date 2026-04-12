@@ -253,6 +253,7 @@ h2{
       margin: 0 auto;
       background-color: var(--white);
       background: var(--white);
+      
 }
 
 .projects-inner {
@@ -261,12 +262,11 @@ h2{
 
 }
 
-.project {
+.hope {
     display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
   margin-top: 2rem;
-  float: left;
 }
 
 .project-cards {
