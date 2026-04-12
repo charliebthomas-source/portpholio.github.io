@@ -267,13 +267,12 @@ h2{
 .project-cards {
   border-radius: 15px;
   background-color: var(--sand);
-  width: 40%;
   
 }
 
 .project-cards img {
-  width: 100%;
   height: 50%;
+  width: fit-content;
 }
 
 .project-card-header {
