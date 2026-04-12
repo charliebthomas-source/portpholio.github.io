@@ -291,3 +291,28 @@ h2{
   color: var(--brown);
 }
 
+#photos {
+        min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 80px 2rem 4rem;
+      max-width: 1100px;
+      margin: 0 auto;
+      background-color: var(--white);
+      background: var(--white);
+}
+
+.photos-inner {
+      max-width: 1100px;
+    margin: 0 auto;
+}
+
+.photos-layout {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.photo-box {
+  background-color: #D4845A;
+  border-radius: 16px;
+}
