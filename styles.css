@@ -263,15 +263,17 @@ h2{
 
 }
 
-
+.hope {
+      display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 2rem;
+}
 
 .project-cards {
   border-radius: 15px;
   background-color: var(--sand);
-    display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-top: 2rem;
+
   
 }
 
