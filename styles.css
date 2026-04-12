@@ -121,18 +121,43 @@ h1 span {
 } 
 
 
-.aboutme-inner{
-      display: grid;
-      grid-template-columns: 1fr  1fr;
-      gap: 4rem;
-      align-items: center;
-      width: 100%;
+.section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
 }
+.section-lable{
+font-size: 0.75rem;
+font-weight: 500;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: var(--accent);
+margin-bottom: 0.75rem;
+}
+
 
  p {
   font-size: 1.05rem;
   color: var(--brown);
   margin-bottom: 2rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.about-text p {
+  color: var(--brown);
+  margin-bottom: 1 rem;
+}
+
+.fun-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 2rem;
 }
 
 h2{
@@ -144,3 +169,77 @@ h2{
   margin-bottom: 0.75rem;
 }
 
+
+.about-me-badge {
+  background: var(--cream);
+  border: 1px solid var(--warm);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.about-me-badge .Badge {
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.about-me-badge p{
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.08m;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.25rem;
+}
+
+.skill-title {
+ font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.25rem;
+}
+.skill-list {
+   display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skill-row {
+    display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.skill-name {
+    font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--dark);
+  min-width: 80px;
+}
+
+.skill-bar-wrap {
+  flex: 1;
+  height: 6px;
+  background: var(--warm);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.skill-bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 99px;
+  width: 0;
+  transition: width 1.2s ease;
+  
+  
+}
+
+.skill-pct{
+  font-size: 0.8rem;
+  color: var(--sand);
+  min-width: 36px;
+  text-align: right;
+}
