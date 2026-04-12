@@ -262,7 +262,6 @@ h2{
 
 
 .project-cards {
-  display: flex;
   border-radius: 15px;
   background-color: var(--sand);
 }
