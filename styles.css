@@ -264,7 +264,7 @@ h2{
 .project-cards {
   grid-column: 1fr 1fr;
   border-radius: 15px;
-  background-color: var(--cream);
+  background-color: var(--sand);
 }
 
 .project-card-header {
@@ -274,8 +274,11 @@ h2{
 .top {
   align-items: start;
   background-color: #D4845A;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .project-card-bottom {
   align-self: center;
+  background-color: aqua;
 }
