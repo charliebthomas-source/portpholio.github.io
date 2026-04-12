@@ -311,15 +311,14 @@ h2{
 .photos-layout {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
 .photo-box {
   
   border-radius: 16px;
- color: #D4845A;
- padding: 20px;
- background: #D4845A;
+ background-color: #D4845A;
  
   
 
