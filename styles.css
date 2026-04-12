@@ -266,12 +266,12 @@ h2{
   grid-template-columns: 1fr 1fr;
   gap: 12px;
   margin-top: 2rem;
+  float: left;
 }
 
 .project-cards {
   border-radius: 15px;
   background-color: var(--sand);
-  padding: 20px ;
 }
 
 .project-cards img {
