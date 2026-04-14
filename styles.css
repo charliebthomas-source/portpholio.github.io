@@ -328,3 +328,38 @@ h2{
 footer {
   background-color: var(--dark);
 }
+
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #F5F0E8;
+  border-bottom: 1px solid #C9B99A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.nav-logo {
+  font-size: 1.25rem;
+  color: #2A1F14;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #7A5C3E;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
