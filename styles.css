@@ -327,6 +327,8 @@ h2{
 
 footer {
   background-color: var(--dark);
+  width: 60px;
+  text-align: center;
 }
 
 
