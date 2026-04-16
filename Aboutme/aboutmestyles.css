@@ -126,8 +126,6 @@ h3 {
 #Photos {
   background-color: var(--dark);
     min-height:100vh;
-  display:grid;
-  grid-template-columns:1fr 1fr;
   padding:80px 2rem 4rem;
   max-width:1100px;
   margin:0 auto;
@@ -139,4 +137,9 @@ h3 {
 img {
   border-radius: 16px;
   float: left;
+}
+
+.photos-layout {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr; 
 }
