@@ -47,8 +47,6 @@
 
 #hero {
     min-height: 100vh;
-      display: flex;
-      align-items: center;
       padding: 80px 2rem 4rem;
       max-width: 1100px;
       margin: 0 auto;
@@ -94,6 +92,7 @@ a {
 .hobbie {
   padding: 5rem 2rem;
   border-bottom: 1px solid #4A7C59;
+  background-color: var(--bg3);
 }
 
 .hobbie-inner {
@@ -110,7 +109,7 @@ a {
   border-radius: 20px;
   overflow: hidden;        
   aspect-ratio: 4/3;      
-  background: var(--bg3);
+  background: var(--green);
 
 }
 
@@ -141,7 +140,7 @@ a {
   font-family: var(--font-head);
   font-size: 7rem;
   font-weight: 700;
-  color: rgba(255,255,255,0.05);  
+  color: var(--mint);  
   line-height: 1;
   user-select: none;       
 }
@@ -153,7 +152,7 @@ a {
 }
 
 .info-box {
-  background: rgba(255,255,255,0.06);
+  background: var(--green);
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 99px;
   padding: 4px 14px;
