@@ -82,8 +82,9 @@ h2 span {
 }
 
 p {
-  color: var(--brown);
-  font-size: 0.75rem;
+  color:var(--brown);
+  margin-bottom:1rem;
+  font-size:1.05rem;
 }
 
 .hero-quote {
@@ -151,10 +152,42 @@ footer {
 }
 
 #whoami {
-   background-color: var(--dark);
+   background-color: var(--cream);
   padding:80px 2rem 4rem;
   max-width:1100px;
   margin:0 auto;
   align-items:center;
   gap:5rem;
 }
+
+h3 {
+  font-family:var(--font-head);
+  font-size:2rem;
+  font-weight:600;
+  color:var(--dark);
+  margin-bottom:1.25rem;
+}
+
+
+
+.whoami-box {
+  background-color: var(--sand);
+  padding-left: 25px;
+  padding-right: 25px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: var(--accent) 15px;
+  border-right: 15px;
+}
+
+.whoami-name {
+  float: left;
+}
+
+.round {
+  background-color: var(--sand);
+  border-radius: 15px;
+  background-color: var(--brown);
+  box-sizing: 1px;
+}
+
