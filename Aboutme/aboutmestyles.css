@@ -143,3 +143,18 @@ img {
   display:grid;
   grid-template-columns:1fr 1fr 1fr 1fr 1fr; 
 }
+
+footer {
+  background-color: var(--dark);
+  min-height: 60px;
+  text-align: center;
+}
+
+#whoami {
+   background-color: var(--dark);
+  padding:80px 2rem 4rem;
+  max-width:1100px;
+  margin:0 auto;
+  align-items:center;
+  gap:5rem;
+}
