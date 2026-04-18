@@ -171,23 +171,27 @@ h3 {
 
 
 .whoami-box {
-  background-color: var(--sand);
-  padding-left: 25px;
-  padding-right: 25px;
-  border-top-right-radius: 15px;
+  background:var(--cream);
+  border:1px solid var(--warm);
+  border-left:4px solid var(--accent);
   border-bottom-right-radius: 15px;
-  border-left: var(--accent) 15px;
-  border-right: 15px;
+  border-top-right-radius: 15px;
+  padding:1.25rem 1.5rem;margin:1.5rem 0;
 }
 
 .whoami-name {
-  float: left;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:1rem;
 }
 
 .round {
-  background-color: var(--sand);
-  border-radius: 15px;
-  background-color: var(--brown);
-  box-sizing: 1px;
+  background:var(--warm);
+  border:1px solid var(--sand);
+  color:var(--brown);
+  font-size:0.78rem;
+  padding:4px 14px;
+  border-radius:99px;
 }
 
