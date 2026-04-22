@@ -140,6 +140,9 @@ img {
   object-fit: cover;
   display: block;
   float: left;
+  background-color: #D4845A;
+  border-radius: 15px;
+  padding-left: 15px ;
 }
 
 .photos-layout {
