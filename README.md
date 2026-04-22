@@ -1,7 +1,7 @@
 
 
     Charlie Thomas
-     >My name is chalrie and i am teching my self how to code my own website though tect tutorials
+     My name is chalrie and i am teching my self how to code my own website though tect tutorials
 
 
 
