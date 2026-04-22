@@ -121,8 +121,6 @@ h1 span {
       padding: 80px 2rem 4rem;
       max-width: 1100px;
       margin: 0 auto;
-      background-color: var(--white);
-      background: var(--white);
 } 
 
 
@@ -250,14 +248,12 @@ h2{
 }
 
 #Myprojects {
-        min-height: 100vh;
+       min-height: 100vh;
       display: flex;
       align-items: center;
       padding: 80px 2rem 4rem;
       max-width: 1100px;
       margin: 0 auto;
-      background-color: var(--cream);
-      background: var(--cream);
       
 }
 
