@@ -46,7 +46,6 @@
 }
 
 #hero {
-    display: flex;
       padding: 100px 2rem 4rem;
       background-color: var(--bg);
 }

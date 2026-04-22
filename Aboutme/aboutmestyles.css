@@ -135,9 +135,11 @@ h3 {
 }
 
 img {
-  border-radius: 16px;
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  display: block;
   float: left;
-  background-color: #D4845A;
 }
 
 .photos-layout {
