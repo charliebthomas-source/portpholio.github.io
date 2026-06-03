@@ -124,3 +124,26 @@
   align-items: center;
   padding: 5px;
 }
+
+#achievements {
+  background-color: var(--bg);
+  padding: 4rem 2rem;
+  align-items: center;
+  display: flex;
+}
+
+.info-cube {
+  background-color: var(--bg2);
+  border: 1px solid var(--green);
+  border-radius: var(--radius);
+  padding: 2rem;
+  color: var(--cream);
+  text-align: center;
+}
+
+.achievements-inner {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 2rem;
+  width: 100%;
+}
