@@ -52,10 +52,7 @@
     }
 
     .hero-inner {
-      display: grid;
-      grid-template-columns: 1fr  1fr;
-      gap: 4rem;
-      align-items: left;
+  
       width: 100%;
       
     }
@@ -63,12 +60,10 @@
       display: flex;
       display: grid;
       grid-template-columns: 1fr  1fr;
-      gap: 4rem;
     }
    
     .horse, .volunteering {
       background-color: var(--bg2);
-      padding: 2rem;
       display: grid;
       display: flex;
       grid-template-columns: 1fr 1fr;
