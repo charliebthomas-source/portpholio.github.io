@@ -60,6 +60,7 @@
       display: flex;
       display: grid;
       grid-template-columns: 50% 50%;
+      width: 100%;
     }
    
     .horse, .volunteering {
@@ -99,9 +100,6 @@
       align-items: center;
       width: 100%;
   aspect-ratio: 16/10;
-  object-fit: cover;
-  display: block;
-  background-color: #D4845A;
   border-radius: 15px;
   padding-left: 15px ;
     }
