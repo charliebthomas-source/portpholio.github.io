@@ -48,6 +48,7 @@
  #hero {
       display: flex;
       padding: 100px 2rem 4rem;
+      background-color: var(--bg);
     }
 
     .hero-inner {
@@ -56,10 +57,11 @@
       gap: 4rem;
       align-items: left;
       width: 100%;
-      background-color: var(--bg);
+      
     }
 #horse {
       padding: 100px 2rem 4rem;
+      background-color: var(--bg2);
 }
 .horse-inner{
       display: grid;
@@ -67,20 +69,21 @@
       gap: 4rem;
       align-items: left;
       width: 100%;
-      background-color: var(--bg2);
+      
 }
 
 #volunterring {
       padding: 100px 2rem 4rem;
+      background-color: var(--bg3);
   
 }
-.volunterring-inner{
+.volunteering-inner{
       display: grid;
       grid-template-columns: 1fr  1fr;
       gap: 4rem;
       align-items: left;
       width: 100%;
-      background-color: var(--bg3);
+      
 }
 
 footer {
