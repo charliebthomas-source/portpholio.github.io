@@ -59,7 +59,7 @@
     #sidebyside {
       display: flex;
       display: grid;
-      grid-template-columns: 25% 75%;
+      grid-template-columns: 50% 50%;
     }
    
     .horse, .volunteering {
@@ -93,8 +93,15 @@
       border-radius: var(--radius);
       font-size: 0.875rem;;
     }
-    .img {
+    img {
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  display: block;
+  background-color: #D4845A;
+  border-radius: 15px;
+  padding-left: 15px ;
     }
