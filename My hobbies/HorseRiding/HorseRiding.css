@@ -54,11 +54,34 @@
       display: grid;
       grid-template-columns: 1fr  1fr;
       gap: 4rem;
-      align-items: center;
+      align-items: left;
       width: 100%;
+      background-color: var(--bg);
     }
+#horse {
+      padding: 100px 2rem 4rem;
+      background-color: var(--bg2);
+}
+.horse-inner{
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+      gap: 4rem;
+      align-items: left;
+      width: 100%;
+}
 
-    
+volunnteer {
+      padding: 100px 2rem 4rem;
+      background-color: var(--bg3);
+}
+.volunteer-inner{
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+      gap: 4rem;
+      align-items: left;
+      width: 100%;
+}
+
 footer {
   background-color: var(--dark);
   min-height: 60px;
