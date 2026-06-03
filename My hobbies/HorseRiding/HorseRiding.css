@@ -61,6 +61,7 @@
       display: grid;
       grid-template-columns: 50% 50%;
       width: 100%;
+      width: 100%;
     }
    
     .horse, .volunteering {
@@ -68,6 +69,7 @@
       display: grid;
       display: flex;
       grid-template-columns: 50% 50%;
+      width: 100%;
     }
 
     h6 {  
@@ -96,18 +98,12 @@
     }
     img {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      
       width: 100%;
   aspect-ratio: 16/10;
       
     }
-     .texts {
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+     
      .texts h2 {
       font-size: 1.5rem;
       color: var(--cream);
