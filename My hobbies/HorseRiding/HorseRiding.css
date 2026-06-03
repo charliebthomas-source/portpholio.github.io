@@ -56,6 +56,12 @@
       width: 100%;
       
     }
+
+    .img {
+      width: 100%;
+  border-radius: 24px;
+    }
+    
     #sidebyside {
       display: flex;
       display: grid;
