@@ -66,5 +66,22 @@
       background-color: var(--bg2);
       display: grid;
       display: flex;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 50% 50%;
+    }
+
+    h6 {  
+      color: var(--white);
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      color: var(--cream);
+      margin-bottom: 1.5rem;
+    }
+    span {
+      color: var(--green);
     }
