@@ -147,6 +147,7 @@ img {
 
 .photos-layout {
   display:grid;
+  padding-right: 5px ;
   grid-template-columns:1fr 1fr 1fr 1fr 1fr; 
 }
 
@@ -159,7 +160,7 @@ footer {
 #whoami {
    background-color: var(--cream);
   padding:80px 2rem 4rem;
-  max-width:1100px;
+  width: 100%;
   margin:0 auto;
   align-items:center;
   gap:5rem;
