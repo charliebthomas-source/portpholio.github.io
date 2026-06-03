@@ -45,6 +45,20 @@
   font-size: 0.875rem;
   text-transform: uppercase;
 }
+ #hero {
+      display: flex;
+      padding: 100px 2rem 4rem;
+    }
+
+    .hero-inner {
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+      gap: 4rem;
+      align-items: center;
+      width: 100%;
+    }
+
+    
 footer {
   background-color: var(--dark);
   min-height: 60px;
