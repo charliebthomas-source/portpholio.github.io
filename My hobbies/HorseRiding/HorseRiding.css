@@ -99,11 +99,8 @@
       font-size: 0.875rem;;
     }
     img {
-      display: flex;
-      
-      width: 100%;
-  aspect-ratio: 16/10;
-      
+    
+      height: auto;
     }
      
      .texts h2 {
@@ -119,4 +116,7 @@
     }
 .texts {
   width: 50%;
+}
+.img {
+  align-items: center;
 }
