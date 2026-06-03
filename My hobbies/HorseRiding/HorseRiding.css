@@ -100,7 +100,9 @@
     }
     img {
     
-      height: auto;
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
     }
      
      .texts h2 {
@@ -116,7 +118,9 @@
     }
 .texts {
   width: 100%;
+  padding: 5px;
 }
 .img {
   align-items: center;
+  padding: 5px;
 }
