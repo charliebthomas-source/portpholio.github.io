@@ -85,3 +85,11 @@
     span {
       color: var(--green);
     }
+    button {
+      background-color: transparent;
+      border: 1px solid var(--green);
+      color: var(--green);
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius);
+      font-size: 0.875rem;;
+    }
