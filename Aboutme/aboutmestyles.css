@@ -45,7 +45,7 @@
   display:grid;
   grid-template-columns:1fr 1fr;
   padding:80px 2rem 4rem;
-  max-width:1100px;
+  width: 100%;
   margin:0 auto;
   align-items:center;
   gap:5rem;
@@ -127,7 +127,7 @@ h3 {
 #Photos {
   background-color: var(--dark);
   padding:80px 2rem 4rem;
-  max-width:1100px;
+  Width:100%;
   margin:0 auto;
   align-items:center;
   gap:5rem;
