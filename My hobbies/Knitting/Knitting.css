@@ -144,7 +144,7 @@ button {
   display: grid;
   padding: 3rem;
   background-color: var(--mint);
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 
 }
 
