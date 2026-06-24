@@ -48,7 +48,7 @@
 }
 
 #hero {
-  grid-column: 50% 50%;
+  grid-template-columns: 50% 50%;
   min-width: 100%;
   padding: 2rem;
   background-color: var(--bg3);
