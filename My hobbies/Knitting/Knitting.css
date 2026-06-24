@@ -87,7 +87,8 @@ h1 {
    background-color: var(--green-light);
   border: 1px solid var(--green);
   border-radius: var(--radius);
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   color: var(--cream);
   text-align: center;
 }
@@ -102,5 +103,6 @@ button {
   border: #C9A84C;
   border-radius: var(--radius);
   border-width: 1px;
+  border-color: var(--gold);
   color: var(--gold);
 }
