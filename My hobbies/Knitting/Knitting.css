@@ -99,10 +99,54 @@ p {
 }
 
 button {
-  background-color: transparent;
-  border: #C9A84C;
-  border-radius: var(--radius);
-  border-width: 1px;
-  border-color: var(--gold);
-  color: var(--gold);
+      background-color: transparent;
+      border: 1px solid var(--gold);
+      color: var(--green);
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius);
+      font-size: 0.875rem;;
+    }
+#story {
+  background-color: var(--bg2);
+  padding: 4rem 2rem;
+  align-items: center;
 }
+.story-inner {
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+#simgle {
+  background-color: var(--bg);
+  padding: 4rem 2rem;
+  align-items: center;
+}
+
+.single-inner {
+  align-items: center;
+  padding: 2rem;
+}
+
+.photos{
+  display: grid;
+  grid-template-columns: 1fr  1fr 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.boxs {
+  padding: 3rem;
+  background-color: var(--green);
+  grid-template-rows: 1fr 1fr;
+
+}
+
+.boxs-left { 
+  padding: 1.5rem
+}
+
+.boxs-right {
+  padding: 1.5rem
+} 
