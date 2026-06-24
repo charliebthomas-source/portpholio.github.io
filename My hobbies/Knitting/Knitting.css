@@ -133,7 +133,7 @@ button {
 
 .photoss{
   display: grid;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
   gap: 4rem;
   padding: 3rem;
   align-items: center;
