@@ -127,19 +127,22 @@ button {
 .single-inner {
   align-items: center;
   padding: 2rem;
+  background-color: var(--mint);
 }
 
 .photos{
   display: grid;
   grid-template-columns: 1fr  1fr 1fr 1fr;
+  width: 100%;
   gap: 4rem;
   align-items: center;
+  
 }
 
 .boxs {
   padding: 3rem;
-  background-color: var(--green);
-  grid-template-rows: 1fr 1fr;
+  background-color: var(--mint);
+  grid-template-columns: 1fr 1fr;
 
 }
 
