@@ -133,16 +133,18 @@ button {
 
 .photos{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 25% 25% 25% 25%;
   gap: 4rem;
   padding: 3rem;
+  align-items: center;
   
 }
 
 .boxs {
+  display: grid;
   padding: 3rem;
   background-color: var(--mint);
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 
 }
 
