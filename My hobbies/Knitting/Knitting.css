@@ -132,7 +132,7 @@ button {
 
 .photos{
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 4rem;
   padding: 3rem;
   
@@ -160,4 +160,6 @@ button {
   background-color: #D4845A;
   overflow: hidden;
   width: 25%;
+  padding: 2rem;
+  aspect-ratio: 4/3;
  }
