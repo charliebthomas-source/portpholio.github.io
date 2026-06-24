@@ -132,7 +132,7 @@ button {
 
 .photos{
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
   width: 100%;
   gap: 4rem;
   padding: 3rem;
@@ -159,6 +159,5 @@ button {
  .ims {
   border-radius: 16px;
   background-color: #D4845A;
-  aspect-ratio: 4/3;
   overflow: hidden;
  }
