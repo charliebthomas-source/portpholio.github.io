@@ -52,6 +52,7 @@
   min-width: 100%;
   padding: 2rem;
   background-color: var(--bg3);
+  align-items: start;
 
 }
 
