@@ -132,7 +132,7 @@ button {
 
 .photos{
   display: grid;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   width: 100%;
   gap: 4rem;
   padding: 3rem;
