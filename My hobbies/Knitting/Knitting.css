@@ -12,7 +12,7 @@
       --radius:14px;
     }
 
-    nav {
+     nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -25,6 +25,7 @@
   justify-content: space-between;
   padding: 0 2rem;
   z-index: 1000;
+  width: 100%;
 }
 
 .nav-logo {
@@ -45,8 +46,47 @@
   font-size: 0.875rem;
   text-transform: uppercase;
 }
-footer {
-  background-color: var(--dark);
-  min-height: 60px;
-  text-align: center;
+
+#hero {
+  grid-column: 50% 50%;
+  min-width: 100%;
+  padding: 2rem;
+  background-color: var(--bg3);
+
+}
+
+h6 {
+  font-family: var(--font-head);
+  color: var(--green-light);
+}
+
+h1 {
+  font-family: var(--font-head);
+  color: var(--cream);
+}
+textbutton {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+ronded {
+  background-color: var(--green);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+}
+
+p {
+  font-family: var(--font-body);
+  color: var(--green-light);
+}
+
+button {
+  background-color: transparent;
+  border: #C9A84C;
+  border-radius: var(--radius);
+  border-width: 1px;
+  color: var(--gold);
 }
