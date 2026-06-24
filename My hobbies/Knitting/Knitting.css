@@ -48,11 +48,11 @@
 }
 
 #hero {
-  grid-template-columns: 50% 50%;
-  min-width: 100%;
-  padding: 2rem;
-  background-color: var(--bg3);
-  align-items: start;
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+      gap: 4rem;
+      align-items: center;
+      width: 100%;
 
 }
 hero-left {
