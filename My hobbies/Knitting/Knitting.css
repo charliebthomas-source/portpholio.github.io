@@ -83,13 +83,13 @@ h1 {
   gap: 1rem;
   margin-top: 1rem;
 }
-.button span {
-  background-color: var(--green);
+.cube {
+   background-color: var(--bg2);
+  border: 1px solid var(--green);
   border-radius: var(--radius);
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   color: var(--cream);
-  font-family: var(--font-body);
-  font-size: 0.875rem;
+  text-align: center;
 }
 
 p {
