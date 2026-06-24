@@ -55,6 +55,18 @@
   align-items: start;
 
 }
+hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 h6 {
   font-family: var(--font-head);
