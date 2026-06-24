@@ -83,7 +83,7 @@ h1 {
   gap: 1rem;
   margin-top: 1rem;
 }
-.ronded {
+.button span {
   background-color: var(--green);
   border-radius: var(--radius);
   padding: 0.5rem 1rem;
