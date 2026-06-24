@@ -78,12 +78,12 @@ h1 {
   font-family: var(--font-head);
   color: var(--cream);
 }
-textbutton {
+.textbutton {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
 }
-ronded {
+.ronded {
   background-color: var(--green);
   border-radius: var(--radius);
   padding: 0.5rem 1rem;
