@@ -131,7 +131,7 @@ button {
   background-color: var(--bg);
 }
 
-.photos{
+.photoss{
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
   gap: 4rem;
