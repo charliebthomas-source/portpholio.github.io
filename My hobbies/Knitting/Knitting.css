@@ -154,11 +154,11 @@ button {
   padding: 1.5rem
 } 
 
-.img {
-   border-radius: 16px;
+
+
+ .ims {
+  border-radius: 16px;
   background-color: #D4845A;
   aspect-ratio: 4/3;
   overflow: hidden;
-}
-
- 
+ }
