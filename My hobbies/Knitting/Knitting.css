@@ -53,15 +53,16 @@
       gap: 4rem;
       align-items: center;
       width: 100%;
+      background-color: var(--bg);
 
 }
-hero-left {
+.hero-left {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-hero-right {
+.hero-right {
   display: flex;
   justify-content: center;
   align-items: center;
