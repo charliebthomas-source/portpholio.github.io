@@ -152,6 +152,17 @@ margin-bottom: 0.75rem;
   margin-bottom: 1 rem;
 }
 
+.banner h1{
+  color: red;
+  text-align: center;
+  margin-bottom: 2rem;}
+
+  .banner {
+    background-color: yellow; 
+    width: 100%;
+
+  }
+
 .fun-facts {
   display: grid;
   grid-template-columns: 1fr 1fr;

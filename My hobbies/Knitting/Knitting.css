@@ -97,7 +97,10 @@ p {
   font-family: var(--font-body);
   color: var(--green-light);
 }
-
+p span {
+  color: var(--cream);
+  font-weight: bold;
+}
 button {
       background-color: transparent;
       border: 1px solid var(--gold);
