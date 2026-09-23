@@ -92,7 +92,9 @@ h1 {
   color: var(--cream);
   text-align: center;
 }
-
+.hero-left p {
+  color: var(--gold);
+}
 p {
   font-family: var(--font-body);
   color: var(--green-light);
