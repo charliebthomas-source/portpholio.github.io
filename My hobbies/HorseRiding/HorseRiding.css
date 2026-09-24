@@ -28,6 +28,10 @@
   width: 100%;
 }
 
+p {
+ color: var(--mint);
+}
+
 .nav-logo {
   font-size: 1.25rem;
   color: var(--cream);
@@ -46,7 +50,8 @@
   font-size: 0.875rem;
   text-transform: uppercase;
 }
- #hero {
+
+#hero {
       display: flex;
       padding: 100px 2rem 4rem;
       background-color: var(--bg);
@@ -89,7 +94,7 @@
       margin-bottom: 1.5rem;
     }
     span {
-      color: var(--green);
+      color: var(--green-light);
     }
     button {
       background-color: transparent;
@@ -147,7 +152,7 @@
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   gap: 1rem;
-  width: 90%;
+  width: 100%;
 }
 
 .gallery-inner {
@@ -160,4 +165,12 @@
 #gallery {
   background-color: var(--bg3);
   padding: 4rem 2rem;
+}
+
+h6 {
+  color: var(--bg3);
+}
+
+h2 {
+  color: var(--mint);
 }
