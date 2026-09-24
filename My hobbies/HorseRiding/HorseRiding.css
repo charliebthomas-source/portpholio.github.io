@@ -59,7 +59,7 @@ p {
 
     .hero-inner {
   
-      width: 100%;
+      width: 100vh;
       
     }
 
@@ -69,8 +69,8 @@ p {
       
       display: grid;
       grid-template-columns: 50% 50%;
-      width: 100%;
-      width: 100%;
+      width: 100vh;
+      
     }
    
     .horse, .volunteering {
@@ -166,7 +166,7 @@ p {
 #gallery {
   background-color: var(--bg3);
   padding: 4rem 2rem;
-  width: 100%;
+  width: 100vh;
 }
 
 h6 {
