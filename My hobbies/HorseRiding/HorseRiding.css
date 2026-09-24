@@ -157,6 +157,7 @@ p {
 .achievements-inner {
   display: grid;
   grid-template-columns: repeat(4, 4fr);
+  gap: 2rem;
 }
 
 .gallery-inner {
