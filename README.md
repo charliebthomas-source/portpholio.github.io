@@ -1,16 +1,37 @@
 
+# Charlie Thomas portpholio 
+I am currently teaching myself how to code using html and css. So i desided to start of by make a protpholio. The one main warning i will give however before you open the website is that i have dislexia and i havent yet been with outcorrect and proof read it so there will be many grammar mistakes. 
 
-    Charlie Thomas
-     My name is chalrie and i am teching my self how to code my own website though tect tutorials
+# My goals with this website 
+## learn how to code  
+- code using neat code. i will achive this at the end of coding going through and organising it
+- tech myself css and html. then after that java
+- make a nice looking website. need inprovment.
 
+## Make a porpholio
+- i think it is very usful to have portfolio about yourself
 
+---
+# Inprovments 
+## inportant ones first 
+### add the remaining page 
+these pages do not exsit at the momnent so dont try them
+- the 'project' page 
+-  backing and cooking 
+- climbing
+- soap and candle making 
+- canning
+ ### functional 
+ - make the footer have a return home button
+ - have a back to top button 
+ - have a menue that opens
+## styles 
+- make the photos look nicer 
+- make the pages look more seamless
+- many more things 
 
-This project is currently under active development. A number of sections — including photos, additional pages, and other features — are still being built out.
-Progress has temporarily slowed as I'm currently focused on upcoming exams, but I'll be picking this back up once they're done. Thanks for your patience!
- 
-   What's coming:
+### credits
+Charlie thomas 
 
-Photos / media
-Remaining pages
-General polish and finishing touches
-  
+### Ai usage 
+Ai did not write any code however i did as it opion on desings i have done and how to do some things however i would then go resurch what it said. 
