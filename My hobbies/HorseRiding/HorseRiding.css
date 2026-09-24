@@ -135,6 +135,7 @@ p {
   background-color: var(--bg);
   padding: 4rem 2rem;
   align-items: center;
+  width: 100%;
 
 
 }
@@ -165,6 +166,7 @@ p {
 #gallery {
   background-color: var(--bg3);
   padding: 4rem 2rem;
+  width: 100%;
 }
 
 h6 {
