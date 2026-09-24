@@ -137,7 +137,6 @@ p {
 
 #achievements {
   background-color: var(--bg);
-  padding: 4rem 2rem;
   align-items: center;
 
 
@@ -169,8 +168,7 @@ p {
 
 #gallery {
   background-color: var(--bg3);
-  padding: 4rem 2rem;
- 
+
 }
 
 h6 {
@@ -181,7 +179,8 @@ h2 {
   color: var(--mint);
 }
 
-
+/*
 *, *::before, *::after {
   box-sizing: border-box;
 }
+  */
