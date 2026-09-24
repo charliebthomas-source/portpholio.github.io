@@ -315,7 +315,7 @@ h2{
   background-color: #D4845A;
   aspect-ratio: 4/3;
   
-  overflow: auto;   
+  overflow: hidden;   
 }
 
 
@@ -329,6 +329,7 @@ img {
   max-width: 100%;
   display: block;
   border-radius: 12px;
+  aspect-ratio: 4/3;
 }
 
 nav {
