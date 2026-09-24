@@ -149,7 +149,7 @@ p {
   background-color: var(--bg2);
   border: 1px solid var(--green);
   border-radius: var(--radius);
-  padding: 1rem;
+  padding: 2rem;
   color: var(--cream);
   text-align: center;
 }
@@ -157,15 +157,12 @@ p {
 .achievements-inner {
   display: grid;
   grid-template-columns: repeat(4, 4fr);
-  padding: 2rem;
-  width: 100%;
 }
 
 .gallery-inner {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
-  width: 100%;
 }
 
 #gallery {
