@@ -25,7 +25,7 @@
   justify-content: space-between;
   padding: 0 2rem;
   z-index: 1000;
-  width: 100%;
+  width: 100vmax;
 }
 
 p {
@@ -55,6 +55,7 @@ p {
       display: flex;
       padding: 100px 2rem 4rem;
       background-color: var(--bg);
+      width: 100vmax;
     }
 
     .hero-inner {
@@ -69,7 +70,7 @@ p {
       
       display: grid;
       grid-template-columns: 50% 50%;
-      width: 100vw;
+      width: 100vmax;
       
     }
    
@@ -135,7 +136,7 @@ p {
   background-color: var(--bg);
   padding: 4rem 2rem;
   align-items: center;
-  width: 100%;
+  width: 100vmax;
 
 
 }
@@ -166,7 +167,7 @@ p {
 #gallery {
   background-color: var(--bg3);
   padding: 4rem 2rem;
-  width: 100vw;
+  width: 100vmax;
 }
 
 h6 {
