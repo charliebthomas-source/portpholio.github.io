@@ -313,7 +313,7 @@ h2{
 .photo-box {
   border-radius: 16px;
   background-color: #D4845A;
-  /*aspect-ratio: 4/3;*/
+  aspect-ratio: 4/3;
   
   overflow: auto;   
 }
@@ -325,7 +325,11 @@ footer {
   text-align: center;
 }
 
-
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 12px;
+}
 
 nav {
   position: fixed;
