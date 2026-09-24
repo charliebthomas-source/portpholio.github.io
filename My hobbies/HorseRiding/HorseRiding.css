@@ -139,6 +139,7 @@ p {
 #achievements {
   background-color: var(--bg);
   align-items: center;
+  padding: 2rem;
 
 
 
@@ -155,8 +156,8 @@ p {
 
 .achievements-inner {
   display: grid;
-  grid-template-columns: repeat(2, 4fr);
-
+  grid-template-columns: repeat(4, 4fr);
+  padding: 2rem;
   width: 100%;
 }
 
@@ -169,6 +170,7 @@ p {
 
 #gallery {
   background-color: var(--bg3);
+  padding: 2rem;
 
 }
 
