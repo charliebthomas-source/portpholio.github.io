@@ -195,3 +195,7 @@ img {
   color: var(--green-light);
   border-radius: var(--radius);
 }
+
+img {
+  border-radius: var(--radius);
+}
