@@ -66,6 +66,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 
@@ -84,14 +85,17 @@ h1 {
   margin-top: 1rem;
 }
 .cube {
-   background-color: var(--green-light);
-  border: 1px solid var(--green);
+   background-color: var(--bg3);
   border-radius: var(--radius);
   padding-left: 1rem;
   padding-right: 1rem;
-  color: var(--cream);
   text-align: center;
 }
+
+.cube p {
+  color: var(--green-light);
+}
+
 .hero-left p {
   color: var(--gold);
 }
@@ -162,5 +166,12 @@ button {
 } 
 
 
+h2 {
+  color: var(--green);
+}
+
+* {
+  box-sizing: border-box;
+}
 
  
