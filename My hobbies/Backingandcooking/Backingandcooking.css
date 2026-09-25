@@ -12,9 +12,39 @@
       --font-body:'DM Sans',sans-serif;
       --radius:14px;
     }
+   h1{
+    color: var(--maintext);
+   }
+   
+   h2{
+      color: var(--mutedtext);
+   }
+
+   h3{
+      color: var(--lighttext);
+   }
+
+   h4{
+    color: var(--maintext);
+    font-size: var(--font-body);
+   }
+   
+   h5{
+      color: var(--backuptext)
+   }
+
+   h6{
+      color: var(--mutedtext);
+   }
+
+   p{
+      color: var(--backuptext);
+   }
+
+
 
     nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -59,6 +89,7 @@ footer {
       align-items: center;
       width: 100%;
       background-color: var(--bg);
+      border-bottom: 1px solid var(--dividerlines);
      }
  
 
