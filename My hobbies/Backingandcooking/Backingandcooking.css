@@ -1,45 +1,18 @@
 :root{
-      --bg:#14100d; 
-      --bg2:#241c16; 
-      --bg3:#332920;
-      --dividerlines:#3a332c;
-      --maintext:#f2ece4;
-      --backuptext:#c9beb0;
-      --mutedtext:#a49a8d;
-      --lighttext:#6b6156;
-      --accent:#e8a15c;
+      --bg:#1C2B1F; 
+      --bg2:#243228; 
+      --bg3:#2D3D30;
+      --green:#4A7C59; 
+      --green-light:#7FB08A;
+       --mint:#B8D4BE;
+      --cream:#F2EDE3; 
+      --gold:#C9A84C;
       --font-head:'Libre Baskerville',Georgia,serif;
       --font-body:'DM Sans',sans-serif;
       --radius:14px;
     }
-   h1{
-    color: var(--maintext);
-   }
+  
    
-   h2{
-      color: var(--mutedtext);
-   }
-
-   h3{
-      color: var(--lighttext);
-   }
-
-   h4{
-    color: var(--maintext);
-    font-size: var(--font-body);
-   }
-   
-   h5{
-      color: var(--backuptext)
-   }
-
-   h6{
-      color: var(--mutedtext);
-   }
-
-   p{
-      color: var(--backuptext);
-   }
 
 
 
@@ -50,7 +23,7 @@
   right: 0;
   height: 60px;
   background: var(--bg);
-  border-bottom: 1px solid var(--dividerlines);
+  border-bottom: 1px solid var(--bg3);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,7 +33,7 @@
 
 .nav-logo {
   font-size: 1.25rem;
-  color: var(--maintext);
+  color: var(--green-light);
   text-decoration: none;
 }
 
@@ -72,11 +45,22 @@
 
 .nav-links a {
   text-decoration: none;
-  color: var(--lighttext);
+  color: var(--green-light);
   font-size: 0.875rem;
   text-transform: uppercase;
 }
 
+ h1 {
+        color: var(--cream) ;
+    }
+
+    h6 {
+        color: var(--green-light) ;
+    }
+
+    p{
+      color: var(--green-light)
+    }
 
 #hero {
       display: grid;
@@ -84,7 +68,7 @@
       align-items: center;
       width: 100%;
       background-color: var(--bg);
-      border-bottom: 1px solid var(--dividerlines);
+      border-bottom: 1px solid var(--bg3);
      }
  
   .hero-right {
