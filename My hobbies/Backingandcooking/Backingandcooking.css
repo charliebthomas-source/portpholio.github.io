@@ -105,6 +105,6 @@
   box-sizing: border-box;
 }
 
-progress {
-  background: var(--accent);
+.colord {
+  accent-color: var(--accent);
 }
