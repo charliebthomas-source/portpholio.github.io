@@ -104,3 +104,7 @@
  * {
   box-sizing: border-box;
 }
+
+progress {
+  color: var(--accent);
+}
