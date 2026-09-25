@@ -154,7 +154,7 @@ button {
   
 }
 #shop {
-  background-color: var(--green);
+  background-color: var(--bg3);
 }
 
 .boxs {
@@ -191,8 +191,8 @@ img {
 .buttons {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: var(--bg3);
-  color: var(--green-light);
+  background-color: var(--green);
+  color: var(--bg3);
   border-radius: var(--radius);
 }
 
