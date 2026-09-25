@@ -87,6 +87,11 @@
       border-bottom: 1px solid var(--dividerlines);
      }
  
+  .hero-right {
+    align-items: center;
+  }
+  
+  
      footer {
   background-color: var(--bg);
   min-height: 60px;
