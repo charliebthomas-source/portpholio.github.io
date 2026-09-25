@@ -106,6 +106,8 @@
 }
 
 progress {
-  color: var(--accent);
-  fill-opacity: var(--accent);
+  appearance: var(--accent);
+}
+label {
+  color: var(--lighttext);
 }
