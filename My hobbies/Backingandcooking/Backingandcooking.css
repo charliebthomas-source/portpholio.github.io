@@ -106,8 +106,5 @@
 }
 
 progress {
-  background-color: var(--accent);
-}
-label {
-  color: var(--lighttext);
+  background: var(--accent);
 }
