@@ -142,7 +142,7 @@ button {
 
 .photoss{
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 4rem;
   padding: 3rem;
   align-items: center;
@@ -172,7 +172,6 @@ h2 {
 
 * {
   box-sizing: border-box;
-  width: 100vw;
 }
 
 
