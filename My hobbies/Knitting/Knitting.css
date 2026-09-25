@@ -149,11 +149,13 @@ button {
   align-items: center;
   
 }
+#shop {
+  background-color: var(--green);
+}
 
 .boxs {
   display: grid;
   padding: 3rem;
-  background-color: var(--mint);
   grid-template-columns: 1fr 1fr;
 
 }
