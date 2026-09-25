@@ -76,22 +76,22 @@
   font-size: 0.875rem;
   text-transform: uppercase;
 }
-footer {
-  background-color: var(--bg);
-  min-height: 60px;
-  text-align: center;
-}
+
 
 #hero {
       display: grid;
       grid-template-columns: 1fr  1fr;
-      gap: 4rem;
       align-items: center;
       width: 100%;
       background-color: var(--bg);
       border-bottom: 1px solid var(--dividerlines);
      }
  
+     footer {
+  background-color: var(--bg);
+  min-height: 60px;
+  text-align: center;
+}
 
 
 
