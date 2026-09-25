@@ -51,3 +51,19 @@ footer {
   min-height: 60px;
   text-align: center;
 }
+
+#hero {
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+      gap: 4rem;
+      align-items: center;
+      width: 100%;
+      background-color: var(--bg);
+     }
+ 
+
+
+
+ * {
+  box-sizing: border-box;
+}
