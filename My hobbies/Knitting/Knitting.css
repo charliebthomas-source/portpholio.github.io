@@ -172,6 +172,13 @@ h2 {
 
 * {
   box-sizing: border-box;
+  width: 100vw;
 }
 
+
+img {
+  max-width: 100%;
+  height: auto;
+
+}
  
