@@ -1,12 +1,13 @@
 :root{
-      --bg:#1C2B1F; 
-      --bg2:#243228; 
-      --bg3:#2D3D30;
-      --green:#4A7C59; 
-      --green-light:#7FB08A;
-       --mint:#B8D4BE;
-      --cream:#F2EDE3; 
-      --gold:#C9A84C;
+      --bg:#14100d; 
+      --bg2:#241c16; 
+      --bg3:#332920;
+      --dividerlines:#3a332c;
+      --maintext:#f2ece4;
+      --backuptext:#c9beb0;
+      --mutedtext:#a49a8d;
+      --lighttext:#6b6156;
+      --accent:#e8a15c;
       --font-head:'Libre Baskerville',Georgia,serif;
       --font-body:'DM Sans',sans-serif;
       --radius:14px;
@@ -18,8 +19,8 @@
   left: 0;
   right: 0;
   height: 60px;
-  background: var(--bg3);
-  border-bottom: 1px solid var(--green);
+  background: var(--bg);
+  border-bottom: 1px solid var(--dividerlines);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +30,7 @@
 
 .nav-logo {
   font-size: 1.25rem;
-  color: var(--cream);
+  color: var(--maintext);
   text-decoration: none;
 }
 
@@ -41,12 +42,12 @@
 
 .nav-links a {
   text-decoration: none;
-  color: var(--green-light);
+  color: var(--lighttext);
   font-size: 0.875rem;
   text-transform: uppercase;
 }
 footer {
-  background-color: var(--dark);
+  background-color: var(--bg);
   min-height: 60px;
   text-align: center;
 }
