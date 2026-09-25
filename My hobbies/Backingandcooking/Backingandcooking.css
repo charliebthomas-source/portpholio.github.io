@@ -107,4 +107,5 @@
 
 progress {
   color: var(--accent);
+  fill-opacity: var(--accent);
 }
