@@ -13,7 +13,7 @@
     }
   
 html {
-  background-color: aqua;
+  background-color: var(--bg);
 }
 
 body {
