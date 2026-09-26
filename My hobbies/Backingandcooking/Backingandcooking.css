@@ -76,7 +76,26 @@
     justify-content: center;
   }
   
+#story {
+  background-color: var(--bg2);
+  border-bottom: 1px solid var(--bg3);
+  width: 100%;
+  align-items: start;
+}
   
+#photos {
+  background-color: var(--bg2);
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid var(--bg3);
+}
+
+.photo-grid {
+  display: grid;
+  Grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
      footer {
   background-color: var(--bg);
   min-height: 60px;
@@ -90,11 +109,3 @@
 }
 
 
-
-progress::-webkit-progress-bar {
-  background: var(--bg3);
-}
-
-progress::-webkit-progress-value {
-  background: var(--green-light);
-}
