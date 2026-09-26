@@ -92,5 +92,10 @@
 
 .colord {
   accent-color: var(--accent);
+  background-color: var(--green-light);
 
+}
+
+progress ::-webkit-progress-bar {
+  background-color: var(--bg3);
 }
