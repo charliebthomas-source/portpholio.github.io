@@ -12,7 +12,9 @@
       --radius:14px;
     }
   
-   
+html {
+  background-color: aqua;
+}
 
 body {
   margin: 0;
