@@ -90,11 +90,11 @@
 }
 
 
-.colord {
-  accent-color: var(--accent);
-
-}
 
 progress ::-webkit-progress-bar {
-  background-color: var(--bg3);
+  background: var(--bg3);
+}
+
+progress ::-webkit-progress-value {
+  background: var(--green-light);
 }
