@@ -91,10 +91,10 @@
 
 
 
-progress ::-webkit-progress-bar {
+progress::-webkit-progress-bar {
   background: var(--bg3);
 }
 
-progress ::-webkit-progress-value {
+progress::-webkit-progress-value {
   background: var(--green-light);
 }
