@@ -11,15 +11,23 @@
       --font-body:'DM Sans',sans-serif;
       --radius:14px;
     }
+  
+html {
+  background-color: var(--cream);
+}
+body {
+  margin: 0;
+  max-width: 100vmax;
+}
 
     nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
-  background: var(--bg3);
-  border-bottom: 1px solid var(--green);
+  background: var(--bg);
+  border-bottom: 1px solid var(--bg3);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +37,7 @@
 
 .nav-logo {
   font-size: 1.25rem;
-  color: var(--cream);
+  color: var(--green-light);
   text-decoration: none;
 }
 
@@ -45,8 +53,62 @@
   font-size: 0.875rem;
   text-transform: uppercase;
 }
+
+ * {
+  box-sizing: border-box;
+}
+
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  background-color: var(--bg);
+  border-bottom: 1px solid var(--mint);
+  padding: 2rem;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  overflow: hidden;
+}
+h6 {
+  color: var(--green);
+  font-size: 16px;
+  padding: 0rem;
+}
+
+h1 {
+  color: var(--cream);
+}
+p{
+  color: var(--green-light);
+
+}
+
+.hero-right {
+  overflow: hidden;
+
+
+}
+
+.hero-photos {
+  margin: 10rem;
+  padding: 2rem;
+  width: 100%;
+  max-height: fit-content;
+}
+
+img {
+  
+  width: 100%;
+}
+
 footer {
-  background-color: var(--dark);
+  background-color: var(--bg);
   min-height: 60px;
   text-align: center;
+  margin: 0;
 }
