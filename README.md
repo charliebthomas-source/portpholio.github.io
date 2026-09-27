@@ -2,6 +2,10 @@
 # Charlie Thomas portpholio 
 I am currently teaching myself how to code using html and css. So i desided to start of by make a protpholio. The one main warning i will give however before you open the website is that i have dislexia and i havent yet been with outcorrect and proof read it so there will be many grammar mistakes. 
 
+i am the male on the horse winning at blenhiam house horse trial eventrr challenge. 
+![2|50](./Photos/2916bdb7-7d16-4626-8027-db3157bed2ef.jpeg)
+
+
 # My goals with this website 
 ## learn how to code  
 - code using neat code. i will achive this at the end of coding going through and organising it
@@ -10,6 +14,12 @@ I am currently teaching myself how to code using html and css. So i desided to s
 
 ## Make a porpholio
 - i think it is very usful to have portfolio about yourself
+
+## How i made it 
+- html & css
+- https://www.w3schools.com would highly recomend
+- redit 
+- stackoverflow
 
 ---
 # Inprovments 
