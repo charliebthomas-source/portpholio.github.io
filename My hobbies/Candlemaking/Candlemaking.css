@@ -45,8 +45,48 @@
   font-size: 0.875rem;
   text-transform: uppercase;
 }
+#hero {
+  background-color: var(--bg);
+  padding: 2rem;
+  width: 100%;
+}
+.hero-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+  
+}
+
+h1 {
+  color: var(--green);
+}
+
+.hero-right {
+  overflow: hidden;
+  padding: 2rem;
+
+}
+
+img {
+  width: 100%;
+}
+
+
+#making {
+  background-color: var(--bg);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 footer {
   background-color: var(--dark);
   min-height: 60px;
   text-align: center;
 }
+
+
+ * {
+  box-sizing: border-box;
+}
+
+
+
