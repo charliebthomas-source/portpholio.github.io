@@ -58,7 +58,7 @@
 }
 
 h1 {
-  color: var(--green);
+  color: var(--mint);
 }
 
 .hero-right {
@@ -76,13 +76,30 @@ img {
   background-color: var(--bg);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-footer {
-  background-color: var(--dark);
-  min-height: 60px;
-  text-align: center;
+  border-bottom: 1px solid var(--green-light);
+  padding: 2rem;
 }
 
+
+#photos {
+  background-color: var(--bg);
+  border-bottom: 1px solid var(--green-light);
+}
+.photos-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  gap: 2rem;
+}
+
+
+footer {
+  background-color: var(--bg);
+  min-height: 60px;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
  * {
   box-sizing: border-box;
@@ -90,3 +107,6 @@ footer {
 
 
 
+p {
+  color: var(--green);
+}
