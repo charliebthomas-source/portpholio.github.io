@@ -103,7 +103,7 @@ button {
   border: none;
 }
 
-.text {
+.what-done-inner .text {
   display: flex;
   flex-direction: row;
   gap: 2rem;
