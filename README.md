@@ -39,6 +39,15 @@ these pages do not exsit at the momnent so dont try them
 - make the photos look nicer 
 - make the pages look more seamless
 - many more things 
+## My product page what will be on it?
+### i will put on my project page all of my project i am currently and have aver done they will then link to another page.
+#### these are the pages. some will link to exsting page and some will not it really depends on if the project i amd doing as a hobby or as just a project for a certan amount of time. 
+- and online shopify store in which i sell hats this will lonk to the th knitting page as the coinside with each other
+- a coding page. this will take it to a new page about the coding project i have ever done
+- a page for my poems and how i am trying to write 100 poems and publish a book on amaon.
+- a page for the kit car in which i made it is a toylander made out of wood which took me 1/2 a year to make so a long long time.
+- My a level i get technicly this is not a project but is is taking up the mogority of my time so i will make a page for them 
+- a re cane page to link to the origanl recanning page that is already made.m 
 
 ### credits
 Charlie thomas 
