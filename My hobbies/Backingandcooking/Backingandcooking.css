@@ -120,3 +120,9 @@ h2 {
 }
 
 
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  aspect-ratio: 4/3;
+}
