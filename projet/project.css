@@ -73,10 +73,14 @@ img {
 
 #project {
 background-color: var(--bg);
-padding: 2rem;
 }
 
-
+.project-block {
+  border-bottom: 1px solid var(--green-light);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+}
     
 
  * {
