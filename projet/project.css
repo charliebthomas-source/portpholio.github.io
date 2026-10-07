@@ -71,6 +71,14 @@ img {
     border-bottom: 1px solid var(--green);
 }
 
+#project {
+background-color: var(--bg);
+padding: 2rem;
+}
+
+
+    
+
  * {
   box-sizing: border-box;
 }
